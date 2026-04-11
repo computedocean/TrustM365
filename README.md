@@ -72,7 +72,6 @@ Most M365 drift goes undetected. A Conditional Access policy gets quietly disabl
 - **Baseline Templates (Security Checks)** — Maester and CISA SCuBA-referenced security checks as a read-only assessment layer across selected tenants
 - **MSSP Settings** — organisation name, tagline, logo, brand colour, report accent colour
 - **White-labelling** — all generated reports carry your company name and branding; commentary label reads "YourCompany Commentary"
-- **Timezone** — configurable from MSSP Settings; controls when scheduled reports generate (daily 08:00 trigger) and report timestamps
 
 ### Reporting
 
