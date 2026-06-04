@@ -1,0 +1,67 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-d-windows-package-manager-v3-5",
+  "display_name": "Win - OIB - SC - Device Security - D - Windows Package Manager  - v3.5",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.5",
+  "created": "2025-02-14T11:25:53.9920401Z",
+  "last_modified": "2025-02-14T11:51:46.0726544Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-package-manager-v3-5:device-vendor-msft-policy-config-desktopappinstaller-enableexperimentalfeatures-0",
+      "title": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_0",
+      "recommended_value": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-package-manager-v3-5"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-package-manager-v3-5:device-vendor-msft-policy-config-desktopappinstaller-enablehashoverride-0",
+      "title": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_0",
+      "recommended_value": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-package-manager-v3-5"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-package-manager-v3-5:device-vendor-msft-policy-config-desktopappinstaller-enablelocalmanifestfiles-0",
+      "title": "device_vendor_msft_policy_config_desktopappinstaller_enablelocalmanifestfiles_0",
+      "recommended_value": "device_vendor_msft_policy_config_desktopappinstaller_enablelocalmanifestfiles_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-package-manager-v3-5"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-package-manager-v3-5:device-vendor-msft-policy-config-desktopappinstaller-enablemsappinstallerprotocol-0",
+      "title": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_0",
+      "recommended_value": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-package-manager-v3-5"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-package-manager-v3-5:device-vendor-msft-policy-config-desktopappinstaller-enablesettings-0",
+      "title": "device_vendor_msft_policy_config_desktopappinstaller_enablesettings_0",
+      "recommended_value": "device_vendor_msft_policy_config_desktopappinstaller_enablesettings_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-package-manager-v3-5"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-d-windows-package-manager-v3-5"
+}

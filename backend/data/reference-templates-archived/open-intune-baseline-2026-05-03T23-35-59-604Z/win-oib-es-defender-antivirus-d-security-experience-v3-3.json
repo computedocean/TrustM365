@@ -1,0 +1,61 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-es-defender-antivirus-d-security-experience-v3-3",
+  "display_name": "Win - OIB - ES - Defender Antivirus - D - Security Experience - v3.3",
+  "description": "NOTE: The \"Tamper Protection\" setting requires an active Defender for Endpoint P1/P2 or Defender for Business license.\n\nhttps://learn.microsoft.com/en-us/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Microsoft Defender Antivirus",
+  "category": "antivirus",
+  "scope": "Device",
+  "version": "v3.3",
+  "created": "2024-07-29T14:33:50.6781804Z",
+  "last_modified": "2024-12-05T19:34:39.6156759Z",
+  "license": "GPL-3.0",
+  "required_licenses": [
+    "Defender for Endpoint"
+  ],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-d-security-experience-v3-3:vendor-msft-defender-configuration-tamperprotection-options-0",
+      "title": "vendor_msft_defender_configuration_tamperprotection_options_0",
+      "recommended_value": "vendor_msft_defender_configuration_tamperprotection_options_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-d-security-experience-v3-3"
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-d-security-experience-v3-3:device-vendor-msft-policy-config-windowsdefendersecuritycenter-disablefamilyui-1",
+      "title": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disablefamilyui_1",
+      "recommended_value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disablefamilyui_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-d-security-experience-v3-3"
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-d-security-experience-v3-3:device-vendor-msft-policy-config-windowsdefendersecuritycenter-disableenhancednotifications-0",
+      "title": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disableenhancednotifications_0",
+      "recommended_value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disableenhancednotifications_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-d-security-experience-v3-3"
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-d-security-experience-v3-3:device-vendor-msft-policy-config-windowsdefendersecuritycenter-hidewindowssecuritynotificationareacontrol-0",
+      "title": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_hidewindowssecuritynotificationareacontrol_0",
+      "recommended_value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_hidewindowssecuritynotificationareacontrol_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-d-security-experience-v3-3"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-es-defender-antivirus-d-security-experience-v3-3"
+}

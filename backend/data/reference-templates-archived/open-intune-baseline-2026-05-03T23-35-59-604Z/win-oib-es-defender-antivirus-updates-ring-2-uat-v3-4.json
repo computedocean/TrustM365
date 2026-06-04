@@ -1,0 +1,53 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-es-defender-antivirus-updates-ring-2-uat-v3-4",
+  "display_name": "Win - OIB - ES - Defender Antivirus Updates - Ring 2 - UAT - v3.4",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Microsoft Defender Antivirus",
+  "category": "antivirus",
+  "scope": "Device",
+  "version": "v3.4",
+  "created": "2023-08-19T16:19:59.4480756Z",
+  "last_modified": "2025-01-24T13:17:46.2083025Z",
+  "license": "GPL-3.0",
+  "required_licenses": [
+    "Defender for Endpoint"
+  ],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-updates-ring-2-uat-v3-4:device-vendor-msft-defender-configuration-engineupdateschannel-4",
+      "title": "device_vendor_msft_defender_configuration_engineupdateschannel_4",
+      "recommended_value": "device_vendor_msft_defender_configuration_engineupdateschannel_4",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-updates-ring-2-uat-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-updates-ring-2-uat-v3-4:device-vendor-msft-defender-configuration-platformupdateschannel-4",
+      "title": "device_vendor_msft_defender_configuration_platformupdateschannel_4",
+      "recommended_value": "device_vendor_msft_defender_configuration_platformupdateschannel_4",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-updates-ring-2-uat-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-updates-ring-2-uat-v3-4:device-vendor-msft-defender-configuration-securityintelligenceupdateschannel-4",
+      "title": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_4",
+      "recommended_value": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_4",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-updates-ring-2-uat-v3-4"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-es-defender-antivirus-updates-ring-2-uat-v3-4"
+}

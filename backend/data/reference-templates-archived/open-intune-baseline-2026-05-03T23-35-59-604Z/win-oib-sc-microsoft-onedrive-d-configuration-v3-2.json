@@ -1,0 +1,107 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-onedrive-d-configuration-v3-2",
+  "display_name": "Win - OIB - SC - Microsoft OneDrive - D - Configuration - v3.2",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.2",
+  "created": "2024-08-01T13:53:56.2546454Z",
+  "last_modified": "2024-12-05T20:12:33.6863493Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv2-policy-onedrivengsc-allowtenantlist-1",
+      "title": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_allowtenantlist_1",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_allowtenantlist_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv6-policy-onedrivengsc-enablefeedbackandsupport-0",
+      "title": "device_vendor_msft_policy_config_onedrivengscv6~policy~onedrivengsc_enablefeedbackandsupport_0",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv6~policy~onedrivengsc_enablefeedbackandsupport_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv3-policy-onedrivengsc-enableautomaticuploadbandwidthmanagement-1",
+      "title": "device_vendor_msft_policy_config_onedrivengscv3~policy~onedrivengsc_enableautomaticuploadbandwidthmanagement_1",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv3~policy~onedrivengsc_enableautomaticuploadbandwidthmanagement_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv6-policy-onedrivengsc-enablesyncadminreports-1",
+      "title": "device_vendor_msft_policy_config_onedrivengscv6~policy~onedrivengsc_enablesyncadminreports_1",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv6~policy~onedrivengsc_enablesyncadminreports_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv4-policy-onedrivengsc-enableodignorelistfromgpo-1",
+      "title": "device_vendor_msft_policy_config_onedrivengscv4~policy~onedrivengsc_enableodignorelistfromgpo_1",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv4~policy~onedrivengsc_enableodignorelistfromgpo_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv2-policy-onedrivengsc-kfmblockoptout-1",
+      "title": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_kfmblockoptout_1",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_kfmblockoptout_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv2-policy-onedrivengsc-gposetupdatering-1",
+      "title": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_gposetupdatering_1",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_gposetupdatering_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv2-updates-policy-onedrivengsc-kfmoptinnowizard-1",
+      "title": "device_vendor_msft_policy_config_onedrivengscv2.updates~policy~onedrivengsc_kfmoptinnowizard_1",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv2.updates~policy~onedrivengsc_kfmoptinnowizard_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv2-policy-onedrivengsc-silentaccountconfig-1",
+      "title": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_silentaccountconfig_1",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_silentaccountconfig_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-d-configuration-v3-2:device-vendor-msft-policy-config-onedrivengscv2-policy-onedrivengsc-filesondemandenabled-1",
+      "title": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_filesondemandenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_filesondemandenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-onedrive-d-configuration-v3-2"
+}

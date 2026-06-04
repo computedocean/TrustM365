@@ -1,0 +1,667 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-d-security-hardening-v3-7",
+  "display_name": "Win - OIB - SC - Device Security - D - Security Hardening - v3.7",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.7",
+  "created": "2024-10-20T19:56:16.4175283Z",
+  "last_modified": "2025-10-14T13:35:59.9991636Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-mssecurityguide-applyuacrestrictionstolocalaccountsonnetworklogon-1",
+      "title": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_1",
+      "recommended_value": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-mssecurityguide-configuresmbv1clientdriver-1",
+      "title": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1",
+      "recommended_value": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-mssecurityguide-configuresmbv1server-0",
+      "title": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_0",
+      "recommended_value": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-mssecurityguide-enablestructuredexceptionhandlingoverwriteprotection-1",
+      "title": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_1",
+      "recommended_value": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-msslegacy-ipv6sourceroutingprotectionlevel-1",
+      "title": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1",
+      "recommended_value": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-msslegacy-ipsourceroutingprotectionlevel-1",
+      "title": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1",
+      "recommended_value": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-msslegacy-allowicmpredirectstooverrideospfgeneratedroutes-0",
+      "title": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_0",
+      "recommended_value": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-msslegacy-allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers-1",
+      "title": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_1",
+      "recommended_value": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-admx-mss-legacy-pol-mss-screensavergraceperiod-1",
+      "title": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-connectivity-prohibitinstallationandconfigurationofnetworkbridge-1",
+      "title": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_1",
+      "recommended_value": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-admx-networkconnections-nc-stddomainusersetlocation-1",
+      "title": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-admx-wcm-wcm-minimizeconnections-1",
+      "title": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-windowsconnectionmanager-prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork-1",
+      "title": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1",
+      "recommended_value": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-admx-credssp-allowencryptionoracle-1",
+      "title": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-credentialsdelegation-remotehostallowsdelegationofnonexportablecredentials-1",
+      "title": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_1",
+      "recommended_value": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-system-bootstartdriverinitialization-1",
+      "title": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
+      "recommended_value": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-connectivity-disabledownloadingofprintdriversoverhttp-1",
+      "title": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_1",
+      "recommended_value": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-connectivity-disableinternetdownloadforwebpublishingandonlineorderingwizards-1",
+      "title": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_1",
+      "recommended_value": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-remoteassistance-unsolicitedremoteassistance-0",
+      "title": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_0",
+      "recommended_value": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-remoteassistance-solicitedremoteassistance-0",
+      "title": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_0",
+      "recommended_value": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-autoplay-disallowautoplayfornonvolumedevices-1",
+      "title": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_1",
+      "recommended_value": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-autoplay-setdefaultautorunbehavior-1",
+      "title": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_1",
+      "recommended_value": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-autoplay-turnoffautoplay-1",
+      "title": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_1",
+      "recommended_value": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-credentialsui-enumerateadministrators-0",
+      "title": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_0",
+      "recommended_value": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-admx-windowsexplorer-enablesmartscreen-1",
+      "title": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-fileexplorer-turnoffdataexecutionpreventionforexplorer-0",
+      "title": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_0",
+      "recommended_value": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-fileexplorer-turnoffheapterminationoncorruption-0",
+      "title": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_0",
+      "recommended_value": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-admx-sharing-disablehomegroup-1",
+      "title": "device_vendor_msft_policy_config_admx_sharing_disablehomegroup_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_sharing_disablehomegroup_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-internetexplorer-disableinternetexplorerapp-v2-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_disableinternetexplorerapp_v2_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_disableinternetexplorerapp_v2_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-admx-pushtoinstall-disablepushtoinstall-1",
+      "title": "device_vendor_msft_policy_config_admx_pushtoinstall_disablepushtoinstall_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_pushtoinstall_disablepushtoinstall_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-internetexplorer-disableenclosuredownloading-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-errorreporting-disablewindowserrorreporting-0",
+      "title": "device_vendor_msft_policy_config_errorreporting_disablewindowserrorreporting_0",
+      "recommended_value": "device_vendor_msft_policy_config_errorreporting_disablewindowserrorreporting_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-windowspowershell-turnonpowershellscriptblocklogging-1",
+      "title": "device_vendor_msft_policy_config_windowspowershell_turnonpowershellscriptblocklogging_1",
+      "recommended_value": "device_vendor_msft_policy_config_windowspowershell_turnonpowershellscriptblocklogging_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-remotemanagement-allowbasicauthentication-client-0",
+      "title": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_0",
+      "recommended_value": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-remotemanagement-allowunencryptedtraffic-client-0",
+      "title": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_0",
+      "recommended_value": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-remotemanagement-disallowdigestauthentication-1",
+      "title": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_1",
+      "recommended_value": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-remotemanagement-allowbasicauthentication-service-0",
+      "title": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_0",
+      "recommended_value": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-remotemanagement-allowunencryptedtraffic-service-0",
+      "title": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_0",
+      "recommended_value": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-remotemanagement-disallowstoringofrunascredentials-1",
+      "title": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_1",
+      "recommended_value": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-connectivity-allowphonepclinking-0",
+      "title": "device_vendor_msft_policy_config_connectivity_allowphonepclinking_0",
+      "recommended_value": "device_vendor_msft_policy_config_connectivity_allowphonepclinking_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-dataprotection-allowdirectmemoryaccess-0",
+      "title": "device_vendor_msft_policy_config_dataprotection_allowdirectmemoryaccess_0",
+      "recommended_value": "device_vendor_msft_policy_config_dataprotection_allowdirectmemoryaccess_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-experience-allowcortana-0",
+      "title": "device_vendor_msft_policy_config_experience_allowcortana_0",
+      "recommended_value": "device_vendor_msft_policy_config_experience_allowcortana_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-experience-allowmanualmdmunenrollment-0",
+      "title": "device_vendor_msft_policy_config_experience_allowmanualmdmunenrollment_0",
+      "recommended_value": "device_vendor_msft_policy_config_experience_allowmanualmdmunenrollment_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-games-allowadvancedgamingservices-0",
+      "title": "device_vendor_msft_policy_config_games_allowadvancedgamingservices_0",
+      "recommended_value": "device_vendor_msft_policy_config_games_allowadvancedgamingservices_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-kerberos-pkinithashalgorithmconfiguration-1",
+      "title": "device_vendor_msft_policy_config_kerberos_pkinithashalgorithmconfiguration_1",
+      "recommended_value": "device_vendor_msft_policy_config_kerberos_pkinithashalgorithmconfiguration_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanserver-auditclientdoesnotsupportencryption-1",
+      "title": "device_vendor_msft_policy_config_lanmanserver_auditclientdoesnotsupportencryption_1",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanserver_auditclientdoesnotsupportencryption_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanserver-auditclientdoesnotsupportsigning-1",
+      "title": "device_vendor_msft_policy_config_lanmanserver_auditclientdoesnotsupportsigning_1",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanserver_auditclientdoesnotsupportsigning_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanserver-auditinsecureguestlogon-1",
+      "title": "device_vendor_msft_policy_config_lanmanserver_auditinsecureguestlogon_1",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanserver_auditinsecureguestlogon_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": 2000,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanserver-enableauthratelimiter-1",
+      "title": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter_1",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanserver-enablemailslots-0",
+      "title": "device_vendor_msft_policy_config_lanmanserver_enablemailslots_0",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanserver_enablemailslots_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanserver-maxsmb2dialect-785",
+      "title": "device_vendor_msft_policy_config_lanmanserver_maxsmb2dialect_785",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanserver_maxsmb2dialect_785",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanserver-minsmb2dialect-768",
+      "title": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_768",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_768",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanworkstation-auditinsecureguestlogon-1",
+      "title": "device_vendor_msft_policy_config_lanmanworkstation_auditinsecureguestlogon_1",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanworkstation_auditinsecureguestlogon_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanworkstation-auditserverdoesnotsupportencryption-1",
+      "title": "device_vendor_msft_policy_config_lanmanworkstation_auditserverdoesnotsupportencryption_1",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanworkstation_auditserverdoesnotsupportencryption_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanworkstation-auditserverdoesnotsupportsigning-1",
+      "title": "device_vendor_msft_policy_config_lanmanworkstation_auditserverdoesnotsupportsigning_1",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanworkstation_auditserverdoesnotsupportsigning_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanworkstation-enableinsecureguestlogons-0",
+      "title": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_0",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanworkstation-enablemailslots-0",
+      "title": "device_vendor_msft_policy_config_lanmanworkstation_enablemailslots_0",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanworkstation_enablemailslots_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanworkstation-maxsmb2dialect-785",
+      "title": "device_vendor_msft_policy_config_lanmanworkstation_maxsmb2dialect_785",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanworkstation_maxsmb2dialect_785",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanworkstation-minsmb2dialect-768",
+      "title": "device_vendor_msft_policy_config_lanmanworkstation_minsmb2dialect_768",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanworkstation_minsmb2dialect_768",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-lanmanworkstation-requireencryption-0",
+      "title": "device_vendor_msft_policy_config_lanmanworkstation_requireencryption_0",
+      "recommended_value": "device_vendor_msft_policy_config_lanmanworkstation_requireencryption_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-privacy-disableprivacyexperience-1",
+      "title": "device_vendor_msft_policy_config_privacy_disableprivacyexperience_1",
+      "recommended_value": "device_vendor_msft_policy_config_privacy_disableprivacyexperience_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-security-allowaddprovisioningpackage-0",
+      "title": "device_vendor_msft_policy_config_security_allowaddprovisioningpackage_0",
+      "recommended_value": "device_vendor_msft_policy_config_security_allowaddprovisioningpackage_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-security-allowremoveprovisioningpackage-0",
+      "title": "device_vendor_msft_policy_config_security_allowremoveprovisioningpackage_0",
+      "recommended_value": "device_vendor_msft_policy_config_security_allowremoveprovisioningpackage_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-security-requireretrievehealthcertificateonboot-1",
+      "title": "device_vendor_msft_policy_config_security_requireretrievehealthcertificateonboot_1",
+      "recommended_value": "device_vendor_msft_policy_config_security_requireretrievehealthcertificateonboot_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "hide:gaming-gamebar;gaming-gamedvr;gaming-broadcasting;gaming-gamemode;gaming-xboxnetworking",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-smartscreen-enablesmartscreeninshell-1",
+      "title": "device_vendor_msft_policy_config_smartscreen_enablesmartscreeninshell_1",
+      "recommended_value": "device_vendor_msft_policy_config_smartscreen_enablesmartscreeninshell_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-smartscreen-preventoverrideforfilesinshell-1",
+      "title": "device_vendor_msft_policy_config_smartscreen_preventoverrideforfilesinshell_1",
+      "recommended_value": "device_vendor_msft_policy_config_smartscreen_preventoverrideforfilesinshell_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-sudo-enablesudo-0",
+      "title": "device_vendor_msft_policy_config_sudo_enablesudo_0",
+      "recommended_value": "device_vendor_msft_policy_config_sudo_enablesudo_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-systemservices-configurexboxaccessorymanagementservicestartupmode-4",
+      "title": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_4",
+      "recommended_value": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_4",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-systemservices-configurexboxliveauthmanagerservicestartupmode-4",
+      "title": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_4",
+      "recommended_value": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_4",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-systemservices-configurexboxlivegamesaveservicestartupmode-4",
+      "title": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_4",
+      "recommended_value": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_4",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-systemservices-configurexboxlivenetworkingservicestartupmode-4",
+      "title": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode_4",
+      "recommended_value": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode_4",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-taskscheduler-enablexboxgamesavetask-0",
+      "title": "device_vendor_msft_policy_config_taskscheduler_enablexboxgamesavetask_0",
+      "recommended_value": "device_vendor_msft_policy_config_taskscheduler_enablexboxgamesavetask_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-wifi-allowautoconnecttowifisensehotspots-0",
+      "title": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_0",
+      "recommended_value": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-wifi-allowinternetsharing-0",
+      "title": "device_vendor_msft_policy_config_wifi_allowinternetsharing_0",
+      "recommended_value": "device_vendor_msft_policy_config_wifi_allowinternetsharing_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-windowsinkworkspace-allowwindowsinkworkspace-1",
+      "title": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_1",
+      "recommended_value": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-wirelessdisplay-allowprojectionfrompc-1",
+      "title": "device_vendor_msft_policy_config_wirelessdisplay_allowprojectionfrompc_1",
+      "recommended_value": "device_vendor_msft_policy_config_wirelessdisplay_allowprojectionfrompc_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-wirelessdisplay-allowprojectiontopc-0",
+      "title": "device_vendor_msft_policy_config_wirelessdisplay_allowprojectiontopc_0",
+      "recommended_value": "device_vendor_msft_policy_config_wirelessdisplay_allowprojectiontopc_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-security-hardening-v3-7:device-vendor-msft-policy-config-wirelessdisplay-requirepinforpairing-1",
+      "title": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_1",
+      "recommended_value": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-security-hardening-v3-7"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-d-security-hardening-v3-7"
+}

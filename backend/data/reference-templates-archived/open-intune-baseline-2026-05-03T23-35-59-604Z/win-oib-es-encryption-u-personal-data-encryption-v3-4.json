@@ -1,0 +1,35 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-es-encryption-u-personal-data-encryption-v3-4",
+  "display_name": "Win - OIB - ES - Encryption - U - Personal Data Encryption - v3.4",
+  "description": "NOTE: PDE is only applicable to Windows 11 22H2 or higher, Entra-Joined devices and does not work on Windows Pro/Business SKU's:\nhttps://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/personal-data-encryption/",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Personal Data Encryption",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.4",
+  "created": "2024-09-24T09:22:15.6135479Z",
+  "last_modified": "2024-12-05T19:35:45.2268539Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-encryption-u-personal-data-encryption-v3-4:user-vendor-msft-pde-enablepersonaldataencryption-1",
+      "title": "user_vendor_msft_pde_enablepersonaldataencryption_1",
+      "recommended_value": "user_vendor_msft_pde_enablepersonaldataencryption_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-es-encryption-u-personal-data-encryption-v3-4"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-es-encryption-u-personal-data-encryption-v3-4"
+}

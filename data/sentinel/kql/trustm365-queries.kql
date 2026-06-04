@@ -1,0 +1,64 @@
+// TrustM365 Sentinel Queries
+// Update the table prefix value if you changed it in MSSP Settings.
+let TablePrefix = 'TrustM365';
+let DriftTable = strcat(TablePrefix, 'Drift_CL');
+let RestoreTable = strcat(TablePrefix, 'Restore_CL');
+let JobsTable = strcat(TablePrefix, 'Jobs_CL');
+let WebhooksTable = strcat(TablePrefix, 'Webhooks_CL');
+let ApiTable = strcat(TablePrefix, 'Api_CL');
+
+// Query 1: New drift detections in last 24h
+union isfuzzy=true table(DriftTable)
+| where TimeGenerated > ago(24h)
+| where eventType_s in ('drift.check.completed', 'drift.post_restore.completed')
+| where status_s == 'drifted' and toint(driftCount_d) > 0
+| summarize DriftChecks=count(), TotalDrift=sum(toint(driftCount_d)) by tenantId_s, areaKey_s
+| order by TotalDrift desc
+
+// Query 2: Repeated drift in same tenant/area over 7d
+;
+union isfuzzy=true table(DriftTable)
+| where TimeGenerated > ago(7d)
+| where eventType_s == 'drift.check.completed'
+| where status_s == 'drifted'
+| summarize DriftOccurrences=count(), LastSeen=max(TimeGenerated) by tenantId_s, areaKey_s
+| where DriftOccurrences >= 3
+| order by DriftOccurrences desc
+
+// Query 3: Restore failures in last 30d
+;
+union isfuzzy=true table(RestoreTable)
+| where TimeGenerated > ago(30d)
+| where eventType_s in ('restore.property.failed', 'restore.resource.failed')
+| summarize FailedRestores=count(), LastFailure=max(TimeGenerated) by tenantId_s, areaKey_s, eventType_s
+| order by FailedRestores desc
+
+// Query 4: Job failure rate over time (1h bins)
+;
+union isfuzzy=true table(JobsTable)
+| where TimeGenerated > ago(7d)
+| where eventType_s in ('sync.job.completed', 'sync.job.failed', 'sync.job.unavailable')
+| summarize Completed=countif(eventType_s == 'sync.job.completed'),
+          Failed=countif(eventType_s == 'sync.job.failed'),
+          Unavailable=countif(eventType_s == 'sync.job.unavailable')
+  by bin(TimeGenerated, 1h)
+| extend FailureRatePct = iif((Completed + Failed) == 0, 0.0, todouble(Failed) * 100.0 / todouble(Completed + Failed))
+| order by TimeGenerated asc
+
+// Query 5: Webhook delivery health
+;
+union isfuzzy=true table(WebhooksTable)
+| where TimeGenerated > ago(30d)
+| where eventType_s in ('webhook.delivery.succeeded', 'webhook.delivery.failed')
+| summarize Delivered=countif(eventType_s == 'webhook.delivery.succeeded'),
+          Failed=countif(eventType_s == 'webhook.delivery.failed') by tenantId_s
+| extend DeliverySuccessPct = iif((Delivered + Failed) == 0, 100.0, todouble(Delivered) * 100.0 / todouble(Delivered + Failed))
+| order by DeliverySuccessPct asc
+
+// Query 6: Top APIs by volume (cost visibility)
+;
+union isfuzzy=true table(ApiTable)
+| where TimeGenerated > ago(7d)
+| where eventType_s == 'api.request'
+| summarize Requests=count(), AvgDurationMs=avg(todouble(durationMs_d)) by method_s, url_s, statusCode_d
+| order by Requests desc

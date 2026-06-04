@@ -1,0 +1,131 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-edge-d-updates-v3-6",
+  "display_name": "Win - OIB - SC - Microsoft Edge - D - Updates - v3.6",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.6",
+  "created": "2023-08-09T15:01:38.5133998Z",
+  "last_modified": "2025-04-03T09:21:44.4202275Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-componentupdatesenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_componentupdatesenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_componentupdatesenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-relaunchnotification-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_relaunchnotification_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_relaunchnotification_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-relaunchnotificationperiod-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_relaunchnotificationperiod_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_relaunchnotificationperiod_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-updateupdates-1-policy-cat-edgeupdate-cat-applications-cat-microsoftedge-pol-allowinstallationmicrosoftedge-1",
+      "title": "device_vendor_msft_policy_config_updateupdates.1~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_allowinstallationmicrosoftedge_1",
+      "recommended_value": "device_vendor_msft_policy_config_updateupdates.1~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_allowinstallationmicrosoftedge_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-update-policy-cat-google-cat-googleupdate-cat-applications-cat-microsoftedge-pol-allowinstallationmicrosoftedge-1",
+      "title": "device_vendor_msft_policy_config_update~policy~cat_google~cat_googleupdate~cat_applications~cat_microsoftedge_pol_allowinstallationmicrosoftedge_1",
+      "recommended_value": "device_vendor_msft_policy_config_update~policy~cat_google~cat_googleupdate~cat_applications~cat_microsoftedge_pol_allowinstallationmicrosoftedge_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-updatev83diff-policy-cat-edgeupdate-cat-applications-cat-microsoftedge-pol-createdesktopshortcutmicrosoftedge-1",
+      "title": "device_vendor_msft_policy_config_updatev83diff~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_createdesktopshortcutmicrosoftedge_1",
+      "recommended_value": "device_vendor_msft_policy_config_updatev83diff~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_createdesktopshortcutmicrosoftedge_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-updatev95-policy-cat-edgeupdate-cat-applications-cat-microsoftedge-pol-targetchannelmicrosoftedge-1",
+      "title": "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge_1",
+      "recommended_value": "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-update-policy-cat-google-cat-googleupdate-cat-applications-cat-microsoftedge-pol-updatepolicymicrosoftedge-1",
+      "title": "device_vendor_msft_policy_config_update~policy~cat_google~cat_googleupdate~cat_applications~cat_microsoftedge_pol_updatepolicymicrosoftedge_1",
+      "recommended_value": "device_vendor_msft_policy_config_update~policy~cat_google~cat_googleupdate~cat_applications~cat_microsoftedge_pol_updatepolicymicrosoftedge_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-updatev94-policy-cat-edgeupdate-pol-ecscontrol-1",
+      "title": "device_vendor_msft_policy_config_updatev94~policy~cat_edgeupdate_pol_ecscontrol_1",
+      "recommended_value": "device_vendor_msft_policy_config_updatev94~policy~cat_edgeupdate_pol_ecscontrol_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-updatev87-policy-cat-edgeupdate-cat-webview-pol-allowinstallationmicrosoftedgewebview-1",
+      "title": "device_vendor_msft_policy_config_updatev87~policy~cat_edgeupdate~cat_webview_pol_allowinstallationmicrosoftedgewebview_1",
+      "recommended_value": "device_vendor_msft_policy_config_updatev87~policy~cat_edgeupdate~cat_webview_pol_allowinstallationmicrosoftedgewebview_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-updatev87-policy-cat-edgeupdate-cat-webview-pol-updatepolicymicrosoftedgewebview-1",
+      "title": "device_vendor_msft_policy_config_updatev87~policy~cat_edgeupdate~cat_webview_pol_updatepolicymicrosoftedgewebview_1",
+      "recommended_value": "device_vendor_msft_policy_config_updatev87~policy~cat_edgeupdate~cat_webview_pol_updatepolicymicrosoftedgewebview_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-updatev87-updates-1-policy-cat-edgeupdate-cat-webview-pol-allowinstallationmicrosoftedgewebview-1",
+      "title": "device_vendor_msft_policy_config_updatev87.updates.1~policy~cat_edgeupdate~cat_webview_pol_allowinstallationmicrosoftedgewebview_1",
+      "recommended_value": "device_vendor_msft_policy_config_updatev87.updates.1~policy~cat_edgeupdate~cat_webview_pol_allowinstallationmicrosoftedgewebview_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-updates-v3-6:device-vendor-msft-policy-config-update-policy-cat-google-cat-googleupdate-cat-preferences-pol-autoupdatecheckperiod-1",
+      "title": "device_vendor_msft_policy_config_update~policy~cat_google~cat_googleupdate~cat_preferences_pol_autoupdatecheckperiod_1",
+      "recommended_value": "device_vendor_msft_policy_config_update~policy~cat_google~cat_googleupdate~cat_preferences_pol_autoupdatecheckperiod_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-updates-v3-6"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-edge-d-updates-v3-6"
+}

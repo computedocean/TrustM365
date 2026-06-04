@@ -1,0 +1,67 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0",
+  "display_name": "Win - OIB - SC - Windows Update for Business - D - Reports and Telemetry - v3.0",
+  "description": "NOTE: Contains policies required for Windows Update for Business Reports. Further configuration required:\nhttps://learn.microsoft.com/en-us/windows/deployment/update/wufb-reports-enable",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.0",
+  "created": "2023-08-09T15:01:46.1774311Z",
+  "last_modified": "2024-12-05T20:15:27.6408563Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0:device-vendor-msft-policy-config-system-allowdevicenameindiagnosticdata-1",
+      "title": "device_vendor_msft_policy_config_system_allowdevicenameindiagnosticdata_1",
+      "recommended_value": "device_vendor_msft_policy_config_system_allowdevicenameindiagnosticdata_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0:device-vendor-msft-policy-config-system-allowtelemetry-3",
+      "title": "device_vendor_msft_policy_config_system_allowtelemetry_3",
+      "recommended_value": "device_vendor_msft_policy_config_system_allowtelemetry_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0:device-vendor-msft-policy-config-system-configuretelemetryoptinchangenotification-1",
+      "title": "device_vendor_msft_policy_config_system_configuretelemetryoptinchangenotification_1",
+      "recommended_value": "device_vendor_msft_policy_config_system_configuretelemetryoptinchangenotification_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0:device-vendor-msft-policy-config-system-configuretelemetryoptinsettingsux-1",
+      "title": "device_vendor_msft_policy_config_system_configuretelemetryoptinsettingsux_1",
+      "recommended_value": "device_vendor_msft_policy_config_system_configuretelemetryoptinsettingsux_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0:device-vendor-msft-policy-config-update-allowtemporaryenterprisefeaturecontrol-1",
+      "title": "device_vendor_msft_policy_config_update_allowtemporaryenterprisefeaturecontrol_1",
+      "recommended_value": "device_vendor_msft_policy_config_update_allowtemporaryenterprisefeaturecontrol_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-windows-update-for-business-d-reports-and-telemetry-v3-0"
+}

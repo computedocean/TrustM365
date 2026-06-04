@@ -1,0 +1,315 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-d-audit-and-event-logging-v3-7",
+  "display_name": "Win - OIB - SC - Device Security - D - Audit and Event Logging - v3.7",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.7",
+  "created": "2024-04-11T18:37:59.1943833Z",
+  "last_modified": "2025-10-01T10:31:43.1808828Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-admx-auditsettings-includecmdline-1",
+      "title": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-eventlogservice-controleventlogbehavior-0",
+      "title": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_0",
+      "recommended_value": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-eventlogservice-specifymaximumfilesizeapplicationlog-1",
+      "title": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_1",
+      "recommended_value": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-admx-eventlog-channel-log-retention-2-0",
+      "title": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_0",
+      "recommended_value": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-eventlogservice-specifymaximumfilesizesecuritylog-1",
+      "title": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_1",
+      "recommended_value": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-admx-eventlog-channel-log-retention-3-0",
+      "title": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_0",
+      "recommended_value": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-admx-eventlog-channel-logmaxsize-3-1",
+      "title": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-admx-eventlog-channel-log-retention-4-0",
+      "title": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_0",
+      "recommended_value": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-eventlogservice-specifymaximumfilesizesystemlog-1",
+      "title": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_1",
+      "recommended_value": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountlogon-auditcredentialvalidation-3",
+      "title": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountlogonlogoff-auditaccountlockout-2",
+      "title": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_2",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_2",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountlogonlogoff-auditgroupmembership-1",
+      "title": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountlogonlogoff-auditlogoff-1",
+      "title": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountlogonlogoff-auditlogon-3",
+      "title": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountmanagement-auditapplicationgroupmanagement-3",
+      "title": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-policychange-auditauthenticationpolicychange-1",
+      "title": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-policychange-auditauthorizationpolicychange-1",
+      "title": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-policychange-auditpolicychange-1",
+      "title": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-objectaccess-auditfileshare-3",
+      "title": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountlogonlogoff-auditotherlogonlogoffevents-3",
+      "title": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountmanagement-auditsecuritygroupmanagement-1",
+      "title": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-system-auditsecuritysystemextension-1",
+      "title": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountlogonlogoff-auditspeciallogon-1",
+      "title": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-accountmanagement-audituseraccountmanagement-3",
+      "title": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-detailedtracking-auditpnpactivity-1",
+      "title": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-detailedtracking-auditprocesscreation-1",
+      "title": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-objectaccess-auditdetailedfileshare-2",
+      "title": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_2",
+      "recommended_value": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_2",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-objectaccess-auditotherobjectaccessevents-3",
+      "title": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-objectaccess-auditremovablestorage-3",
+      "title": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-policychange-auditmpssvcrulelevelpolicychange-3",
+      "title": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-policychange-auditotherpolicychangeevents-2",
+      "title": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_2",
+      "recommended_value": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_2",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-privilegeuse-auditsensitiveprivilegeuse-3",
+      "title": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-system-auditipsecdriver-3",
+      "title": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-system-auditothersystemevents-3",
+      "title": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-system-auditsecuritystatechange-1",
+      "title": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_1",
+      "recommended_value": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-audit-and-event-logging-v3-7:device-vendor-msft-policy-config-audit-system-auditsystemintegrity-3",
+      "title": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_3",
+      "recommended_value": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-d-audit-and-event-logging-v3-7"
+}

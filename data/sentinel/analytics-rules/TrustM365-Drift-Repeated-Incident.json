@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "workspace": {
+      "type": "string"
+    },
+    "tablePrefix": {
+      "type": "string",
+      "defaultValue": "TrustM365"
+    },
+    "ruleDisplayName": {
+      "type": "string",
+      "defaultValue": "TrustM365 - Repeated Drift Detection"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.OperationalInsights/workspaces/providers/alertRules",
+      "apiVersion": "2024-01-01-preview",
+      "name": "[concat(parameters('workspace'), '/Microsoft.SecurityInsights/', guid(parameters('workspace'), parameters('ruleDisplayName')))]",
+      "kind": "Scheduled",
+      "properties": {
+        "displayName": "[parameters('ruleDisplayName')]",
+        "description": "Creates incidents when the same tenant and area drift repeatedly.",
+        "enabled": true,
+        "severity": "Medium",
+        "query": "let tableName = strcat('{TablePrefix}', 'Drift_CL');\nunion isfuzzy=true table(tableName)\n| where TimeGenerated > ago(7d)\n| where eventType_s == 'drift.check.completed'\n| where status_s == 'drifted' and toint(driftCount_d) > 0\n| summarize DriftOccurrences=count(), LastSeen=max(TimeGenerated) by tenantId_s, areaKey_s\n| where DriftOccurrences >= 3",
+        "queryFrequency": "PT1H",
+        "queryPeriod": "P7D",
+        "triggerOperator": "GreaterThan",
+        "triggerThreshold": 0,
+        "suppressionDuration": "PT1H",
+        "suppressionEnabled": false,
+        "tactics": [
+          "Persistence",
+          "DefenseEvasion"
+        ],
+        "eventGroupingSettings": {
+          "aggregationKind": "AlertPerResult"
+        },
+        "incidentConfiguration": {
+          "createIncident": true,
+          "groupingConfiguration": {
+            "enabled": true,
+            "reopenClosedIncident": false,
+            "lookbackDuration": "P1D",
+            "matchingMethod": "Selected",
+            "groupByAlertDetails": [
+              "DisplayName"
+            ],
+            "groupByCustomDetails": [
+              "tenantId_s",
+              "areaKey_s"
+            ]
+          }
+        },
+        "customDetails": {
+          "TenantId": "tenantId_s",
+          "AreaKey": "areaKey_s",
+          "Occurrences": "DriftOccurrences"
+        },
+        "alertDetailsOverride": {
+          "alertDisplayNameFormat": "TrustM365 repeated drift for {{tenantId_s}} / {{areaKey_s}}",
+          "alertDescriptionFormat": "Repeated drift detected {{DriftOccurrences}} times over 7 days."
+        }
+      }
+    }
+  ]
+}

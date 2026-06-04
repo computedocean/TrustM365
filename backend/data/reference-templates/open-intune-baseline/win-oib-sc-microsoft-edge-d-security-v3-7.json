@@ -1,0 +1,379 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-edge-d-security-v3-7",
+  "display_name": "Win - OIB - SC - Microsoft Edge - D - Security - v3.7",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.7",
+  "created": "2024-11-22T11:38:21.9596734Z",
+  "last_modified": "2025-08-13T12:25:08.8156005Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev78diff-policy-microsoft-edge-adssettingforintrusiveadssites-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_adssettingforintrusiveadssites_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_adssettingforintrusiveadssites_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgeupdates-2-policy-microsoft-edge-downloadrestrictions-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgeupdates.2~policy~microsoft_edge_downloadrestrictions_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgeupdates.2~policy~microsoft_edge_downloadrestrictions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev78diff-policy-microsoft-edge-importbrowsersettings-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_importbrowsersettings_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_importbrowsersettings_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-importhistory-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importhistory_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importhistory_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-importhomepage-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importhomepage_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importhomepage_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-importpaymentinfo-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importpaymentinfo_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importpaymentinfo_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-importsavedpasswords-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importsavedpasswords_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importsavedpasswords_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-importsearchengine-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importsearchengine_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_importsearchengine_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev78diff-policy-microsoft-edge-enterprisehardwareplatformapienabled-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_enterprisehardwareplatformapienabled_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_enterprisehardwareplatformapienabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev80diff-policy-microsoft-edge-personalizationreportingenabled-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_personalizationreportingenabled_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_personalizationreportingenabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-browsernetworktimequeriesenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_browsernetworktimequeriesenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_browsernetworktimequeriesenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev92-policy-microsoft-edge-internetexplorerintegrationreloadiniemodeallowed-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_internetexplorerintegrationreloadiniemodeallowed_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_internetexplorerintegrationreloadiniemodeallowed_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-sslerroroverrideallowed-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslerroroverrideallowed_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_sslerroroverrideallowed_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev80diff-policy-microsoft-edge-paymentmethodqueryenabled-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_paymentmethodqueryenabled_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_paymentmethodqueryenabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev117-policy-microsoft-edge-internetexplorerintegrationzoneidentifiermhtfileallowed-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev117~policy~microsoft_edge_internetexplorerintegrationzoneidentifiermhtfileallowed_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev117~policy~microsoft_edge_internetexplorerintegrationzoneidentifiermhtfileallowed_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev78diff-policy-microsoft-edge-trackingprevention-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_trackingprevention_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_trackingprevention_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-googlecast-enablemediarouter-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~googlecast_enablemediarouter_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~googlecast_enablemediarouter_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev78diff-policy-microsoft-edge-clearbrowsingdataonexit-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_clearbrowsingdataonexit_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_clearbrowsingdataonexit_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev83diff-policy-microsoft-edge-clearcachedimagesandfilesonexit-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev83diff~policy~microsoft_edge_clearcachedimagesandfilesonexit_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev83diff~policy~microsoft_edge_clearcachedimagesandfilesonexit_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev83diff-policy-microsoft-edge-configureshare-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev83diff~policy~microsoft_edge_configureshare_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev83diff~policy~microsoft_edge_configureshare_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-experimentationandconfigurationservicecontrol-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_experimentationandconfigurationservicecontrol_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_experimentationandconfigurationservicecontrol_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev80diff-policy-microsoft-edge-dnsinterceptionchecksenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_dnsinterceptionchecksenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_dnsinterceptionchecksenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev128-policy-microsoft-edge-dynamiccodesettings-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev128~policy~microsoft_edge_dynamiccodesettings_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev128~policy~microsoft_edge_dynamiccodesettings_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev128-1-policy-microsoft-edge-applicationboundencryptionenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev128.1~policy~microsoft_edge_applicationboundencryptionenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev128.1~policy~microsoft_edge_applicationboundencryptionenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-autofilladdressenabled-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_autofilladdressenabled_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_autofilladdressenabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-autofillcreditcardenabled-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_autofillcreditcardenabled_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_autofillcreditcardenabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev95-policy-microsoft-edge-browserlegacyextensionpointsblockingenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev95~policy~microsoft_edge_browserlegacyextensionpointsblockingenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev95~policy~microsoft_edge_browserlegacyextensionpointsblockingenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev78diff-policy-microsoft-edge-renderercodeintegrityenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_renderercodeintegrityenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_renderercodeintegrityenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-siteperprocess-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_siteperprocess_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_siteperprocess_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev98-policy-microsoft-edge-enhancesecuritymode-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev98~policy~microsoft_edge_enhancesecuritymode_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev98~policy~microsoft_edge_enhancesecuritymode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev93-policy-microsoft-edge-experimentation-featureflagoverridescontrol-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev93~policy~microsoft_edge~experimentation_featureflagoverridescontrol_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev93~policy~microsoft_edge~experimentation_featureflagoverridescontrol_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev80diff-policy-microsoft-edge-hidefirstrunexperience-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_hidefirstrunexperience_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_hidefirstrunexperience_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-httpauthentication-authschemes-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~httpauthentication_authschemes_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev90-policy-microsoft-edge-httpauthentication-windowshelloforhttpauthenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev90~policy~microsoft_edge~httpauthentication_windowshelloforhttpauthenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev90~policy~microsoft_edge~httpauthentication_windowshelloforhttpauthenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev98-policy-microsoft-edge-microsoftedgeinsiderpromotionenabled-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev98~policy~microsoft_edge_microsoftedgeinsiderpromotionenabled_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev98~policy~microsoft_edge_microsoftedgeinsiderpromotionenabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-nativemessaging-nativemessaginguserlevelhosts-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~nativemessaging_nativemessaginguserlevelhosts_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~nativemessaging_nativemessaginguserlevelhosts_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev134-policy-microsoft-edge-scarewareblocker-scarewareblockerprotectionenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev134~policy~microsoft_edge~scarewareblocker_scarewareblockerprotectionenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev134~policy~microsoft_edge~scarewareblocker_scarewareblockerprotectionenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev96-policy-microsoft-edge-internetexplorermodetoolbarbuttonenabled-0",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge_internetexplorermodetoolbarbuttonenabled_0",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge_internetexplorermodetoolbarbuttonenabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-smartscreen-smartscreenenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev80diff-policy-microsoft-edge-smartscreen-smartscreenpuaenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge~smartscreen_smartscreenpuaenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge~smartscreen_smartscreenpuaenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev78diff-policy-microsoft-edge-smartscreen-smartscreenfortrusteddownloadsenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge~smartscreen_smartscreenfortrusteddownloadsenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge~smartscreen_smartscreenfortrusteddownloadsenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-smartscreen-preventsmartscreenpromptoverride-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-smartscreen-preventsmartscreenpromptoverrideforfiles-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-d-security-v3-7:device-vendor-msft-policy-config-microsoft-edgev96-policy-microsoft-edge-typosquattingchecker-typosquattingcheckerenabled-1",
+      "title": "device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge~typosquattingchecker_typosquattingcheckerenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_microsoft_edgev96~policy~microsoft_edge~typosquattingchecker_typosquattingcheckerenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-d-security-v3-7"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-edge-d-security-v3-7"
+}

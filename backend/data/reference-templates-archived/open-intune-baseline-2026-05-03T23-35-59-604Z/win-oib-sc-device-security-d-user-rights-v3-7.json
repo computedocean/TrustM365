@@ -1,0 +1,227 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-d-user-rights-v3-7",
+  "display_name": "Win - OIB - SC - Device Security - D - User Rights - v3.7",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.7",
+  "created": "2024-04-10T19:37:21.1209277Z",
+  "last_modified": "2025-10-09T14:39:43.2459912Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-user-rights-v3-7:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-user-rights-v3-7"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-d-user-rights-v3-7"
+}

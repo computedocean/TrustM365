@@ -1,0 +1,53 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-es-defender-antivirus-updates-ring-1-pilot-v3-4",
+  "display_name": "Win - OIB - ES - Defender Antivirus Updates - Ring 1 - Pilot - v3.4",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Microsoft Defender Antivirus",
+  "category": "antivirus",
+  "scope": "Device",
+  "version": "v3.4",
+  "created": "2023-08-19T16:17:32.4994221Z",
+  "last_modified": "2025-01-24T13:16:50.217302Z",
+  "license": "GPL-3.0",
+  "required_licenses": [
+    "Defender for Endpoint"
+  ],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-updates-ring-1-pilot-v3-4:device-vendor-msft-defender-configuration-engineupdateschannel-3",
+      "title": "device_vendor_msft_defender_configuration_engineupdateschannel_3",
+      "recommended_value": "device_vendor_msft_defender_configuration_engineupdateschannel_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-updates-ring-1-pilot-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-updates-ring-1-pilot-v3-4:device-vendor-msft-defender-configuration-platformupdateschannel-3",
+      "title": "device_vendor_msft_defender_configuration_platformupdateschannel_3",
+      "recommended_value": "device_vendor_msft_defender_configuration_platformupdateschannel_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-updates-ring-1-pilot-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-updates-ring-1-pilot-v3-4:device-vendor-msft-defender-configuration-securityintelligenceupdateschannel-0",
+      "title": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_0",
+      "recommended_value": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-updates-ring-1-pilot-v3-4"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-es-defender-antivirus-updates-ring-1-pilot-v3-4"
+}

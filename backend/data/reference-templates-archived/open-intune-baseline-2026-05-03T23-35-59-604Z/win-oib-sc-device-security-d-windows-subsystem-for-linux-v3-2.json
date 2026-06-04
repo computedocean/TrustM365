@@ -1,0 +1,107 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2",
+  "display_name": "Win - OIB - SC - Device Security - D - Windows Subsystem for Linux - v3.2",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.2",
+  "created": "2024-04-10T19:37:07.4694279Z",
+  "last_modified": "2024-12-05T19:49:47.8753244Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-customkernelusersettingconfigurable-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_customkernelusersettingconfigurable_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_customkernelusersettingconfigurable_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-customnetworkingusersettingconfigurable-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_customnetworkingusersettingconfigurable_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_customnetworkingusersettingconfigurable_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-customsystemdistrousersettingconfigurable-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_customsystemdistrousersettingconfigurable_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_customsystemdistrousersettingconfigurable_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-customkernelcommandlineusersettingconfigurable-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_customkernelcommandlineusersettingconfigurable_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_customkernelcommandlineusersettingconfigurable_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-kerneldebugusersettingconfigurable-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_kerneldebugusersettingconfigurable_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_kerneldebugusersettingconfigurable_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-nestedvirtualizationusersettingconfigurable-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_nestedvirtualizationusersettingconfigurable_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_nestedvirtualizationusersettingconfigurable_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-allowdebugshell-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_allowdebugshell_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_allowdebugshell_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-allowinboxwsl-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_allowinboxwsl_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_allowinboxwsl_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-firewallusersettingconfigurable-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_firewallusersettingconfigurable_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_firewallusersettingconfigurable_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2:device-vendor-msft-policy-config-wslv1-policy-wsl-allowwsl1-0",
+      "title": "device_vendor_msft_policy_config_wslv1~policy~wsl_allowwsl1_0",
+      "recommended_value": "device_vendor_msft_policy_config_wslv1~policy~wsl_allowwsl1_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-d-windows-subsystem-for-linux-v3-2"
+}

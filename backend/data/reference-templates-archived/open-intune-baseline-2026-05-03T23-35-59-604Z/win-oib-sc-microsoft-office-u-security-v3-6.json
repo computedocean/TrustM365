@@ -1,0 +1,891 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-office-u-security-v3-6",
+  "display_name": "Win - OIB - SC - Microsoft Office - U - Security - v3.6",
+  "description": "NOTE: These policies are only applicable to Microsoft 365 Apps for Enterprise (included with M365 E*/A*/F*), not Microsoft 365 Apps for Business (included with M365 Business Premium).",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.6",
+  "created": "2025-01-31T10:49:57.9269822Z",
+  "last_modified": "2025-05-13T10:18:10.5066369Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-access16v2-policy-l-microsoftofficeaccess-l-applicationsettings-l-security-l-trustcenter-l-blockmacroexecutionfrominternet-1",
+      "title": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "recommended_value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-access16v2-policy-l-microsoftofficeaccess-l-applicationsettings-l-security-l-trustcenter-l-disabletrustbarnotificationforunsigned-1",
+      "title": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_disabletrustbarnotificationforunsigned_1",
+      "recommended_value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_disabletrustbarnotificationforunsigned_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-access16v2-policy-l-microsoftofficeaccess-l-applicationsettings-l-security-l-trustcenter-l-requirethatapplicationextensionsaresigned-1",
+      "title": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "recommended_value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-access16v2-policy-l-microsoftofficeaccess-l-applicationsettings-l-security-l-trustcenter-l-trustedlocations-l-allowtrustedlocationsonthenetwork-0",
+      "title": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0",
+      "recommended_value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-access16v2-policy-l-microsoftofficeaccess-l-applicationsettings-l-security-l-trustcenter-l-vbawarningspolicy-1",
+      "title": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "recommended_value": "user_vendor_msft_policy_config_access16v2~policy~l_microsoftofficeaccess~l_applicationsettings~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-datarecovery-l-donotshowdataextractionoptionswhenopeningcorruptworkbooks-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_datarecovery_l_donotshowdataextractionoptionswhenopeningcorruptworkbooks_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_datarecovery_l_donotshowdataextractionoptionswhenopeningcorruptworkbooks_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-advanced-l-asktoupdateautomaticlinks-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced_l_asktoupdateautomaticlinks_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced_l_asktoupdateautomaticlinks_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-advanced-l-weboptions-l-general-l-loadpicturesfromwebpagesnotcreatedinexcel-0",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced~l_weboptions~l_general_l_loadpicturesfromwebpagesnotcreatedinexcel_0",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced~l_weboptions~l_general_l_loadpicturesfromwebpagesnotcreatedinexcel_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-save-l-disableautorepublish-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_disableautorepublish_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_disableautorepublish_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-save-l-donotshowautorepublishwarningalert-0",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_donotshowautorepublishwarningalert_0",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_donotshowautorepublishwarningalert_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-forcefileextenstionstomatch-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_forcefileextenstionstomatch_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_forcefileextenstionstomatch_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-determinewhethertoforceencryptedexcel-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_determinewhethertoforceencryptedexcel_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_determinewhethertoforceencryptedexcel_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v8-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-blockxllfrominternet-1",
+      "title": "user_vendor_msft_policy_config_excel16v8~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_blockxllfrominternet_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v8~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_blockxllfrominternet_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-blockmacroexecutionfrominternet-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v3-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-externalcontent-l-enableblockunsecurequeryfiles-1",
+      "title": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_enableblockunsecurequeryfiles_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_enableblockunsecurequeryfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v3-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-externalcontent-l-disableddeserverlaunch-1",
+      "title": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlaunch_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlaunch_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v3-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-externalcontent-l-disableddeserverlookup-1",
+      "title": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlookup_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_externalcontent_l_disableddeserverlookup_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-dbaseiiiandivfiles-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_dbaseiiiandivfiles_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_dbaseiiiandivfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-difandsylkfiles-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_difandsylkfiles_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_difandsylkfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel2macrosheetsandaddinfiles-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2macrosheetsandaddinfiles_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2macrosheetsandaddinfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel2worksheets-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2worksheets_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel2worksheets_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel3macrosheetsandaddinfiles-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3macrosheetsandaddinfiles_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3macrosheetsandaddinfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel3worksheets-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3worksheets_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel3worksheets_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel4macrosheetsandaddinfiles-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4macrosheetsandaddinfiles_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4macrosheetsandaddinfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel4workbooks-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4workbooks_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4workbooks_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel4worksheets-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4worksheets_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel4worksheets_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel95workbooks-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel95workbooks_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel95workbooks_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel9597workbooksandtemplates-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel9597workbooksandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel9597workbooksandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-excel972003workbooksandtemplates-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel972003workbooksandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_excel972003workbooksandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-setdefaultfileblockbehavior-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-fileblocksettings-l-webpagesandexcel2003xmlspreadsheets-0",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_webpagesandexcel2003xmlspreadsheets_0",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_fileblocksettings_l_webpagesandexcel2003xmlspreadsheets_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v6-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-xl4killswitchpolicy-1",
+      "title": "user_vendor_msft_policy_config_excel16v6~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_xl4killswitchpolicy_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v6~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_xl4killswitchpolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v3-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-protectedview-l-enabledatabasefileprotectedview-1",
+      "title": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_enabledatabasefileprotectedview_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v3~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_enabledatabasefileprotectedview_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-protectedview-l-donotopenfilesfromtheinternetzoneinprotectedview-0",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview_0",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-protectedview-l-donotopenfilesinunsafelocationsinprotectedview-0",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview_0",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-protectedview-l-setdocumentbehavioriffilevalidationfails-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-protectedview-l-turnoffprotectedviewforattachmentsopenedfromoutlook-0",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook_0",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-requirethatapplicationextensionsaresigned-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-trustedlocations-l-allowtrustedlocationsonthenetwork-0",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-trustcenter-l-vbawarningspolicy-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-turnofffilevalidation-0",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_turnofffilevalidation_0",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_turnofffilevalidation_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-security-l-webcontentwarninglevel-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_webcontentwarninglevel_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_security_l_webcontentwarninglevel_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-gloabloptions-l-customize-l-noextensibilitycustomizationfromdocumentpolicy-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_gloabloptions~l_customize_l_noextensibilitycustomizationfromdocumentpolicy_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_gloabloptions~l_customize_l_noextensibilitycustomizationfromdocumentpolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-securitysettings-l-activexcontrolinitialization-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_activexcontrolinitialization_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_activexcontrolinitialization_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v12-policy-l-microsoftofficesystem-l-securitysettings-l-basicauthproxybehavior-0",
+      "title": "user_vendor_msft_policy_config_office16v12~policy~l_microsoftofficesystem~l_securitysettings_l_basicauthproxybehavior_0",
+      "recommended_value": "user_vendor_msft_policy_config_office16v12~policy~l_microsoftofficesystem~l_securitysettings_l_basicauthproxybehavior_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v6-policy-l-microsoftofficesystem-l-securitysettings-l-allowvbaintranetrefs-0",
+      "title": "user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_allowvbaintranetrefs_0",
+      "recommended_value": "user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_allowvbaintranetrefs_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-securitysettings-l-automationsecurity-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_automationsecurity_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_automationsecurity_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v5-policy-l-microsoftofficesystem-l-securitysettings-l-authenticationfbabehavior-1",
+      "title": "user_vendor_msft_policy_config_office16v5~policy~l_microsoftofficesystem~l_securitysettings_l_authenticationfbabehavior_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v5~policy~l_microsoftofficesystem~l_securitysettings_l_authenticationfbabehavior_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v6-policy-l-microsoftofficesystem-l-securitysettings-l-disablestrictvbarefssecuritypolicy-0",
+      "title": "user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_disablestrictvbarefssecuritypolicy_0",
+      "recommended_value": "user_vendor_msft_policy_config_office16v6~policy~l_microsoftofficesystem~l_securitysettings_l_disablestrictvbarefssecuritypolicy_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-securitysettings-l-disablealltrustbarnotificationsfor-0",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_disablealltrustbarnotificationsfor_0",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_disablealltrustbarnotificationsfor_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v14-policy-l-microsoftofficesystem-l-securitysettings-l-encryptiontypeforirm-1",
+      "title": "user_vendor_msft_policy_config_office16v14~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforirm_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v14~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforirm_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-securitysettings-l-encryptiontypeforpasswordprotectedoffice972003-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedoffice972003_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedoffice972003_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-securitysettings-l-encryptiontypeforpasswordprotectedofficeopen-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedofficeopen_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_encryptiontypeforpasswordprotectedofficeopen_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-securitysettings-l-loadcontrolsinforms3-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_loadcontrolsinforms3_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_loadcontrolsinforms3_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-securitysettings-l-macroruntimescanscope-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_macroruntimescanscope_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_macroruntimescanscope_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-securitysettings-l-protectdocumentmetadataforrightsmanaged-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_protectdocumentmetadataforrightsmanaged_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings_l_protectdocumentmetadataforrightsmanaged_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-securitysettings-l-trustcenter241-l-allowmixofpolicyanduserlocations-0",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings~l_trustcenter241_l_allowmixofpolicyanduserlocations_0",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_securitysettings~l_trustcenter241_l_allowmixofpolicyanduserlocations_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-serversettings-l-disabletheofficeclientfrompolling-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_serversettings_l_disabletheofficeclientfrompolling_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_serversettings_l_disabletheofficeclientfrompolling_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-smartdocumentswordexcel-l-disablesmartdocumentsuseofmanifests-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_smartdocumentswordexcel_l_disablesmartdocumentsuseofmanifests_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_smartdocumentswordexcel_l_disablesmartdocumentsuseofmanifests_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-outlk16v2-policy-l-microsoftofficeoutlook-l-security-l-securityformsettings-l-outlooksecuritymode-1",
+      "title": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_security~l_securityformsettings_l_outlooksecuritymode_1",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_security~l_securityformsettings_l_outlooksecuritymode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-runprograms-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_runprograms_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_runprograms_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-determinewhethertoforceencryptedppt-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_determinewhethertoforceencryptedppt_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_determinewhethertoforceencryptedppt_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-trustcenter-l-blockmacroexecutionfrominternet-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-ppt-l-powerpointoptions-l-security-l-trustcenter-l-fileblocksettings-l-powerpoint972003presentationsshowstemplatesandaddinfiles-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_ppt~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_powerpoint972003presentationsshowstemplatesandaddinfiles_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_ppt~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_powerpoint972003presentationsshowstemplatesandaddinfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-trustcenter-l-fileblocksettings-l-setdefaultfileblockbehavior-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-trustcenter-l-protectedview-l-donotopenfilesfromtheinternetzoneinprotectedview-0",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview_0",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-trustcenter-l-protectedview-l-donotopenfilesinunsafelocationsinprotectedview-0",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview_0",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-trustcenter-l-protectedview-l-setdocumentbehavioriffilevalidationfails-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-trustcenter-l-protectedview-l-turnoffprotectedviewforattachmentsopenedfromoutlook-0",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook_0",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-trustcenter-l-requirethatapplicationextensionsaresigned-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-trustcenter-l-trustedlocations-l-allowtrustedlocationsonthenetwork-0",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-trustcenter-l-vbawarningspolicy-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-security-l-turnofffilevalidation-0",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_turnofffilevalidation_0",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_security_l_turnofffilevalidation_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-proj16v2-policy-l-proj-l-projectoptions-l-security-l-trustcenter-l-allowtrustedlocationsonthenetwork-0",
+      "title": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork_0",
+      "recommended_value": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-proj16v3-policy-l-proj-l-projectoptions-l-security-l-trustcenter-l-blockmacroexecutionfrominternet-1",
+      "title": "user_vendor_msft_policy_config_proj16v3~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "recommended_value": "user_vendor_msft_policy_config_proj16v3~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-proj16v2-policy-l-proj-l-projectoptions-l-security-l-trustcenter-l-requirethatapplicationextensionsaresigned-1",
+      "title": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "recommended_value": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-proj16v2-policy-l-proj-l-projectoptions-l-security-l-trustcenter-l-vbawarningspolicy-1",
+      "title": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "recommended_value": "user_vendor_msft_policy_config_proj16v2~policy~l_proj~l_projectoptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-pub16v2-policy-l-microsoftofficepublisher-l-security-l-publisherautomationsecuritylevel-1",
+      "title": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security_l_publisherautomationsecuritylevel_1",
+      "recommended_value": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security_l_publisherautomationsecuritylevel_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-pub16v3-policy-l-microsoftofficepublisher-l-security-l-trustcenter-l-blockmacroexecutionfrominternet-1",
+      "title": "user_vendor_msft_policy_config_pub16v3~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "recommended_value": "user_vendor_msft_policy_config_pub16v3~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-pub16v2-policy-l-microsoftofficepublisher-l-security-l-trustcenter-l-requirethatapplicationextensionsaresigned-1",
+      "title": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "recommended_value": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-pub16v2-policy-l-microsoftofficepublisher-l-security-l-trustcenter-l-vbawarningspolicy-1",
+      "title": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "recommended_value": "user_vendor_msft_policy_config_pub16v2~policy~l_microsoftofficepublisher~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-visio16v2-policy-l-microsoftvisio-l-visiooptions-l-security-l-trustcenter-l-allowtrustedlocationsonthenetwork-0",
+      "title": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork_0",
+      "recommended_value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_allowtrustedlocationsonthenetwork_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-visio16v2-policy-l-microsoftvisio-l-visiooptions-l-security-l-trustcenter-l-blockmacroexecutionfrominternet-1",
+      "title": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "recommended_value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-visio16v2-policy-l-microsoftvisio-l-visiooptions-l-security-l-trustcenter-l-fileblocksettings-l-visio2000files-1",
+      "title": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2000files_1",
+      "recommended_value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2000files_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-visio16v2-policy-l-microsoftvisio-l-visiooptions-l-security-l-trustcenter-l-fileblocksettings-l-visio2003files-1",
+      "title": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2003files_1",
+      "recommended_value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio2003files_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-visio16v2-policy-l-microsoftvisio-l-visiooptions-l-security-l-trustcenter-l-fileblocksettings-l-visio50andearlierfiles-1",
+      "title": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio50andearlierfiles_1",
+      "recommended_value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter~l_fileblocksettings_l_visio50andearlierfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-visio16v2-policy-l-microsoftvisio-l-visiooptions-l-security-l-trustcenter-l-requirethatapplicationextensionsaresigned-1",
+      "title": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "recommended_value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-visio16v2-policy-l-microsoftvisio-l-visiooptions-l-security-l-trustcenter-l-vbawarningspolicy-1",
+      "title": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "recommended_value": "user_vendor_msft_policy_config_visio16v2~policy~l_microsoftvisio~l_visiooptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-blockmacroexecutionfrominternet-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_blockmacroexecutionfrominternet_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-allowdde-0",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_allowdde_0",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_allowdde_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-fileblocksettings-l-setdefaultfileblockbehavior-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_setdefaultfileblockbehavior_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-fileblocksettings-l-word2andearlierbinarydocumentsandtemplates-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2andearlierbinarydocumentsandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2andearlierbinarydocumentsandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-fileblocksettings-l-word2000binarydocumentsandtemplates-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2000binarydocumentsandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2000binarydocumentsandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-fileblocksettings-l-word2003binarydocumentsandtemplates-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2003binarydocumentsandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2003binarydocumentsandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-fileblocksettings-l-word2007andlaterbinarydocumentsandtemplates-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2007andlaterbinarydocumentsandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word2007andlaterbinarydocumentsandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-fileblocksettings-l-word6pt0binarydocumentsandtemplates-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word6pt0binarydocumentsandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word6pt0binarydocumentsandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-fileblocksettings-l-word95binarydocumentsandtemplates-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word95binarydocumentsandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word95binarydocumentsandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-fileblocksettings-l-word97binarydocumentsandtemplates-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word97binarydocumentsandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_word97binarydocumentsandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-fileblocksettings-l-wordxpbinarydocumentsandtemplates-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_wordxpbinarydocumentsandtemplates_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_fileblocksettings_l_wordxpbinarydocumentsandtemplates_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-protectedview-l-donotopenfilesfromtheinternetzoneinprotectedview-0",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview_0",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesfromtheinternetzoneinprotectedview_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-protectedview-l-donotopenfilesinunsafelocationsinprotectedview-0",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview_0",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_donotopenfilesinunsafelocationsinprotectedview_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-protectedview-l-setdocumentbehavioriffilevalidationfails-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_setdocumentbehavioriffilevalidationfails_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-protectedview-l-turnoffprotectedviewforattachmentsopenedfromoutlook-0",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook_0",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_protectedview_l_turnoffprotectedviewforattachmentsopenedfromoutlook_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-requirethatapplicationextensionsaresigned-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_requirethatapplicationextensionsaresigned_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-determinewhethertoforceencryptedword-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_determinewhethertoforceencryptedword_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_determinewhethertoforceencryptedword_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-trustedlocations-l-allowtrustedlocationsonthenetwork-0",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter~l_trustedlocations_l_allowtrustedlocationsonthenetwork_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-trustcenter-l-vbawarningspolicy-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security~l_trustcenter_l_vbawarningspolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-security-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-security-l-turnofffilevalidation-0",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security_l_turnofffilevalidation_0",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_security_l_turnofffilevalidation_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-security-v3-6"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-office-u-security-v3-6"
+}

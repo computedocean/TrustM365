@@ -1,0 +1,211 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-d-local-security-policies-24h2-v3-6",
+  "display_name": "Win - OIB - SC - Device Security - D - Local Security Policies (24H2+) - v3.6",
+  "description": "NOTE: For 24H2+ devices only. Disables built-in Administrator account.",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.6",
+  "created": "2025-04-01T14:02:22.8385908Z",
+  "last_modified": "2025-05-12T13:28:34.0641412Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-accounts-enableadministratoraccountstatus-0",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableadministratoraccountstatus_0",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableadministratoraccountstatus_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-accounts-enableguestaccountstatus-0",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_0",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-accounts-limitlocalaccountuseofblankpasswordstoconsolelogononly-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-interactivelogon-smartcardremovalbehavior-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-microsoftnetworkclient-digitallysigncommunicationsalways-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-microsoftnetworkclient-sendunencryptedpasswordtothirdpartysmbservers-0",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_0",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-microsoftnetworkserver-digitallysigncommunicationsalways-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-networkaccess-donotallowanonymousenumerationofsamaccounts-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-networkaccess-donotallowanonymousenumerationofsamaccountsandshares-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-networkaccess-restrictanonymousaccesstonamedpipesandshares-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:unknown",
+      "title": "unknown",
+      "recommended_value": "O:BAG:BAD:(A;;RC;;;BA)",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-networksecurity-donotstorelanmanagerhashvalueonnextpasswordchange-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-networksecurity-lanmanagerauthenticationlevel-5",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_5",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_5",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-networksecurity-minimumsessionsecurityforntlmsspbasedclients-537395200",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_537395200",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_537395200",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-networksecurity-minimumsessionsecurityforntlmsspbasedservers-537395200",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_537395200",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_537395200",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-useraccountcontrol-behavioroftheelevationpromptforadministrators-2",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_2",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_2",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-useraccountcontrol-behavioroftheelevationpromptforstandardusers-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-useraccountcontrol-detectapplicationinstallationsandpromptforelevation-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-useraccountcontrol-onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-useraccountcontrol-runalladministratorsinadminapprovalmode-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-useraccountcontrol-switchtothesecuredesktopwhenpromptingforelevation-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-useraccountcontrol-useadminapprovalmode-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-local-security-policies-24h2-v3-6:device-vendor-msft-policy-config-localpoliciessecurityoptions-useraccountcontrol-virtualizefileandregistrywritefailurestoperuserlocations-1",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_1",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-d-local-security-policies-24h2-v3-6"
+}

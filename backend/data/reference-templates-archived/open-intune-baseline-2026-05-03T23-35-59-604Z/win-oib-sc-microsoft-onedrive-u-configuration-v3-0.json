@@ -1,0 +1,59 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-onedrive-u-configuration-v3-0",
+  "display_name": "Win - OIB - SC - Microsoft OneDrive - U - Configuration - v3.0",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.0",
+  "created": "2023-08-09T15:01:42.0761848Z",
+  "last_modified": "2024-12-05T20:12:44.7190773Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-u-configuration-v3-0:user-vendor-msft-policy-config-onedrivengscv2-policy-onedrivengsc-enableholdthefile-1",
+      "title": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_enableholdthefile_1",
+      "recommended_value": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_enableholdthefile_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-u-configuration-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-u-configuration-v3-0:user-vendor-msft-policy-config-onedrivengscv2-policy-onedrivengsc-disablefretutorial-1",
+      "title": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_disablefretutorial_1",
+      "recommended_value": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_disablefretutorial_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-u-configuration-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-u-configuration-v3-0:user-vendor-msft-policy-config-onedrivengscv2-policy-onedrivengsc-disablecustomroot-1",
+      "title": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_disablecustomroot_1",
+      "recommended_value": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_disablecustomroot_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-u-configuration-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-onedrive-u-configuration-v3-0:user-vendor-msft-policy-config-onedrivengscv2-policy-onedrivengsc-disablepersonalsync-1",
+      "title": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_disablepersonalsync_1",
+      "recommended_value": "user_vendor_msft_policy_config_onedrivengscv2~policy~onedrivengsc_disablepersonalsync_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-onedrive-u-configuration-v3-0"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-onedrive-u-configuration-v3-0"
+}

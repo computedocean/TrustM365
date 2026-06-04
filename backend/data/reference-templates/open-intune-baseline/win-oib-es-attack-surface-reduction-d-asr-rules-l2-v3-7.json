@@ -1,0 +1,144 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7",
+  "display_name": "Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (L2) - v3.7",
+  "description": "ASR L2 rules recommended",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Attack Surface Reduction Rules",
+  "category": "attack_surface_reduction",
+  "scope": "Device",
+  "version": "v3.7",
+  "created": "2026-05-21T23:24:52.144Z",
+  "last_modified": "2026-05-21T23:24:52.144Z",
+  "license": "GPL-3.0",
+  "required_licenses": [
+    "Defender for Endpoint"
+  ],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7:block-all-office-applications-from-creating-child-processes",
+      "title": "Block all Office applications from creating child processes",
+      "recommended_value": "Block",
+      "type": "enum",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7",
+      "allowed_values": [
+        "Block",
+        "Audit Mode",
+        "Warn"
+      ]
+    },
+    {
+      "control_id": "oib:win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7:block-javascript-or-vbscript-from-launching-downloaded-executable-content",
+      "title": "Block JavaScript or VBScript from launching downloaded executable content",
+      "recommended_value": "Block",
+      "type": "enum",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7",
+      "allowed_values": [
+        "Block",
+        "Audit Mode"
+      ]
+    },
+    {
+      "control_id": "oib:win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7:enable-controlled-folder-access",
+      "title": "Enable Controlled Folder Access",
+      "recommended_value": "Audit Mode",
+      "type": "enum",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7",
+      "allowed_values": [
+        "Enabled",
+        "Audit Mode",
+        "Disabled"
+      ]
+    }
+  ],
+  "resources": {
+    "oib:win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7:settings": {
+      "id": "oib:win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7:settings",
+      "displayName": "Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (L2) - v3.7 settings",
+      "settings": {
+        "Block all Office applications from creating child processes": "Block",
+        "blockAllOfficeApplicationsFromCreatingChildProcesses": "Block",
+        "Block JavaScript or VBScript from launching downloaded executable content": "Block",
+        "blockJavaScriptOrVBScriptFromLaunchingDownloadedExecutableContent": "Block",
+        "Enable Controlled Folder Access": "Audit Mode",
+        "enableControlledFolderAccess": "Audit Mode"
+      },
+      "settings_array": [
+        {
+          "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses",
+          "name": "Block all Office applications from creating child processes",
+          "value": "Block"
+        },
+        {
+          "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent",
+          "name": "Block JavaScript or VBScript from launching downloaded executable content",
+          "value": "Block"
+        },
+        {
+          "settingDefinitionId": "device_vendor_msft_policy_config_defender_useadvancedprotectionagainstransomware",
+          "name": "Enable Controlled Folder Access",
+          "value": "Audit Mode"
+        }
+      ]
+    }
+  },
+  "watched_keys": [
+    {
+      "path": "settings[settingDefinitionId=device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses].value",
+      "label": "Block all Office applications from creating child processes",
+      "match": "equals"
+    },
+    {
+      "path": "settings.blockAllOfficeApplicationsFromCreatingChildProcesses",
+      "label": "Block all Office applications from creating child processes",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Block all Office applications from creating child processes].value",
+      "label": "Block all Office applications from creating child processes",
+      "match": "equals"
+    },
+    {
+      "path": "settings[settingDefinitionId=device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent].value",
+      "label": "Block JavaScript or VBScript from launching downloaded executable content",
+      "match": "equals"
+    },
+    {
+      "path": "settings.blockJavaScriptOrVBScriptFromLaunchingDownloadedExecutableContent",
+      "label": "Block JavaScript or VBScript from launching downloaded executable content",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Block JavaScript or VBScript from launching downloaded executable content].value",
+      "label": "Block JavaScript or VBScript from launching downloaded executable content",
+      "match": "equals"
+    },
+    {
+      "path": "settings[settingDefinitionId=device_vendor_msft_policy_config_defender_useadvancedprotectionagainstransomware].value",
+      "label": "Enable Controlled Folder Access",
+      "match": "equals"
+    },
+    {
+      "path": "settings.enableControlledFolderAccess",
+      "label": "Enable Controlled Folder Access",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Enable Controlled Folder Access].value",
+      "label": "Enable Controlled Folder Access",
+      "match": "equals"
+    }
+  ],
+  "area_key": "intune_ep_asr",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline"
+  },
+  "id": "win-oib-es-attack-surface-reduction-d-asr-rules-l2-v3-7"
+}

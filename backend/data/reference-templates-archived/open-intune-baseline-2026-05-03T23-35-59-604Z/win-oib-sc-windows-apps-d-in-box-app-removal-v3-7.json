@@ -1,0 +1,35 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-windows-apps-d-in-box-app-removal-v3-7",
+  "display_name": "Win - OIB - SC - Windows Apps - D - In-Box App Removal - v3.7",
+  "description": "NOTE: This policy will only apply to devices running Windows Enterprise",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.7",
+  "created": "2025-10-20T09:23:55.5235306Z",
+  "last_modified": "2025-10-20T09:36:31.1636254Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-windows-apps-d-in-box-app-removal-v3-7:device-vendor-msft-policy-config-applicationmanagement-removedefaultmicrosoftstorepackages-1",
+      "title": "device_vendor_msft_policy_config_applicationmanagement_removedefaultmicrosoftstorepackages_1",
+      "recommended_value": "device_vendor_msft_policy_config_applicationmanagement_removedefaultmicrosoftstorepackages_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-apps-d-in-box-app-removal-v3-7"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-windows-apps-d-in-box-app-removal-v3-7"
+}

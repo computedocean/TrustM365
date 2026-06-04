@@ -1,0 +1,24 @@
+{
+  "fetched": [
+    {
+      "repo": "maester365/maester",
+      "url": "https://raw.githubusercontent.com/maester365/maester/main/tests/Maester/Entra/Test-ConditionalAccessBaseline.Tests.ps1",
+      "savedAs": "maester-Test-ConditionalAccessBaseline.Tests.ps1"
+    },
+    {
+      "repo": "cisagov/ScubaGear",
+      "url": "https://github.com/cisagov/ScubaGear",
+      "note": "Sample JSON attempted but 404; saved repo README for review",
+      "savedAs": "ScubaGear-README.txt"
+    },
+    {
+      "repo": "SkipToTheEndpoint/OpenIntuneBaseline",
+      "url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+      "savedAs": "OpenIntuneBaseline-README.txt"
+    }
+  ],
+  "fetchedAt": "2026-04-26T00:00:00Z",
+  "metadata": {
+    "category": "Uncategorized"
+  }
+}

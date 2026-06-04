@@ -1,0 +1,75 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-windows-user-experience-d-feature-configuration-v3-1",
+  "display_name": "Win - OIB - SC - Windows User Experience - D - Feature Configuration - v3.1",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.1",
+  "created": "2024-04-10T19:35:25.3581889Z",
+  "last_modified": "2024-12-05T20:15:58.4704786Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-windows-user-experience-d-feature-configuration-v3-1:device-vendor-msft-policy-config-filesystem-enabledevdrive-0",
+      "title": "device_vendor_msft_policy_config_filesystem_enabledevdrive_0",
+      "recommended_value": "device_vendor_msft_policy_config_filesystem_enabledevdrive_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-user-experience-d-feature-configuration-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-user-experience-d-feature-configuration-v3-1:device-vendor-msft-policy-config-experience-configurechaticon-3",
+      "title": "device_vendor_msft_policy_config_experience_configurechaticon_3",
+      "recommended_value": "device_vendor_msft_policy_config_experience_configurechaticon_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-user-experience-d-feature-configuration-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-user-experience-d-feature-configuration-v3-1:device-vendor-msft-policy-config-search-allowcloudsearch-1",
+      "title": "device_vendor_msft_policy_config_search_allowcloudsearch_1",
+      "recommended_value": "device_vendor_msft_policy_config_search_allowcloudsearch_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-user-experience-d-feature-configuration-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-user-experience-d-feature-configuration-v3-1:device-vendor-msft-policy-config-search-allowindexingencryptedstoresoritems-0",
+      "title": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_0",
+      "recommended_value": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-user-experience-d-feature-configuration-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-user-experience-d-feature-configuration-v3-1:device-vendor-msft-policy-config-search-disableremovabledriveindexing-1",
+      "title": "device_vendor_msft_policy_config_search_disableremovabledriveindexing_1",
+      "recommended_value": "device_vendor_msft_policy_config_search_disableremovabledriveindexing_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-user-experience-d-feature-configuration-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-user-experience-d-feature-configuration-v3-1:device-vendor-msft-policy-config-newsandinterests-allownewsandinterests-0",
+      "title": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0",
+      "recommended_value": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-user-experience-d-feature-configuration-v3-1"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-windows-user-experience-d-feature-configuration-v3-1"
+}

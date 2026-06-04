@@ -1,0 +1,67 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0",
+  "display_name": "Win - OIB - SC - Device Security - U - Windows Spotlight and Org Messages - v3.0",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.0",
+  "created": "2023-08-09T15:01:27.8899188Z",
+  "last_modified": "2024-12-05T19:51:11.3684147Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0:unknown",
+      "title": "unknown",
+      "recommended_value": 0,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0:user-vendor-msft-policy-config-experience-allowwindowsspotlight-1",
+      "title": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+      "recommended_value": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0:user-vendor-msft-policy-config-experience-allowwindowsspotlightonsettings-0",
+      "title": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonsettings_0",
+      "recommended_value": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonsettings_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0:device-vendor-msft-policy-config-experience-disablecloudoptimizedcontent-0",
+      "title": "device_vendor_msft_policy_config_experience_disablecloudoptimizedcontent_0",
+      "recommended_value": "device_vendor_msft_policy_config_experience_disablecloudoptimizedcontent_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0:user-vendor-msft-policy-config-experience-enableorganizationalmessages-1",
+      "title": "user_vendor_msft_policy_config_experience_enableorganizationalmessages_1",
+      "recommended_value": "user_vendor_msft_policy_config_experience_enableorganizationalmessages_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-u-windows-spotlight-and-org-messages-v3-0"
+}

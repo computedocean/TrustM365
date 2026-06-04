@@ -1,0 +1,123 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0",
+  "display_name": "Win - OIB - SC - Windows Update for Business - D - Delivery Optimisation - v3.0",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.0",
+  "created": "2023-08-09T15:01:45.6899599Z",
+  "last_modified": "2024-12-05T20:13:32.349678Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:unknown",
+      "title": "unknown",
+      "recommended_value": 0,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:device-vendor-msft-policy-config-deliveryoptimization-doallowvpnpeercaching-0",
+      "title": "device_vendor_msft_policy_config_deliveryoptimization_doallowvpnpeercaching_0",
+      "recommended_value": "device_vendor_msft_policy_config_deliveryoptimization_doallowvpnpeercaching_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:device-vendor-msft-policy-config-deliveryoptimization-dodownloadmode-1",
+      "title": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_1",
+      "recommended_value": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:device-vendor-msft-policy-config-deliveryoptimization-dogroupidsource-5",
+      "title": "device_vendor_msft_policy_config_deliveryoptimization_dogroupidsource_5",
+      "recommended_value": "device_vendor_msft_policy_config_deliveryoptimization_dogroupidsource_5",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:unknown",
+      "title": "unknown",
+      "recommended_value": 0,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:unknown",
+      "title": "unknown",
+      "recommended_value": 20,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:unknown",
+      "title": "unknown",
+      "recommended_value": 500,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:unknown",
+      "title": "unknown",
+      "recommended_value": 40,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:unknown",
+      "title": "unknown",
+      "recommended_value": 10,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:unknown",
+      "title": "unknown",
+      "recommended_value": 2,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:unknown",
+      "title": "unknown",
+      "recommended_value": 0,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0:device-vendor-msft-policy-config-deliveryoptimization-dorestrictpeerselectionby-2",
+      "title": "device_vendor_msft_policy_config_deliveryoptimization_dorestrictpeerselectionby_2",
+      "recommended_value": "device_vendor_msft_policy_config_deliveryoptimization_dorestrictpeerselectionby_2",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-windows-update-for-business-d-delivery-optimisation-v3-0"
+}

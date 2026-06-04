@@ -1,0 +1,227 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-office-u-config-and-experience-v3-6",
+  "display_name": "Win - OIB - SC - Microsoft Office - U - Config and Experience - v3.6",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.6",
+  "created": "2025-01-30T12:18:11.5626089Z",
+  "last_modified": "2025-04-24T09:28:39.8095954Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-save-l-saveexcelfilesas-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_saveexcelfilesas_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_saveexcelfilesas_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-excel16v2-policy-l-microsoftofficeexcel-l-exceloptions-l-save-l-turnofffileformatcompatiblitydialogforods-1",
+      "title": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_turnofffileformatcompatiblitydialogforods_1",
+      "recommended_value": "user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_save_l_turnofffileformatcompatiblitydialogforods_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-firstrun-l-disablemovie-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_firstrun_l_disablemovie_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_firstrun_l_disablemovie_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-firstrun-l-disableofficefirstrun-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_firstrun_l_disableofficefirstrun_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_firstrun_l_disableofficefirstrun_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v10-policy-l-microsoftofficesystem-l-languagesettings-l-displaylanguage-l-allownonadminuserinstalllaps-1",
+      "title": "user_vendor_msft_policy_config_office16v10~policy~l_microsoftofficesystem~l_languagesettings~l_displaylanguage_l_allownonadminuserinstalllaps_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v10~policy~l_microsoftofficesystem~l_languagesettings~l_displaylanguage_l_allownonadminuserinstalllaps_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-languagesettings-l-disableproofingtoolsadvertisement-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_languagesettings_l_disableproofingtoolsadvertisement_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_languagesettings_l_disableproofingtoolsadvertisement_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v18-policy-l-microsoftofficesystem-l-miscellaneous437-l-linksopenrightdefaultsettingisnative-1",
+      "title": "user_vendor_msft_policy_config_office16v18~policy~l_microsoftofficesystem~l_miscellaneous437_l_linksopenrightdefaultsettingisnative_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v18~policy~l_microsoftofficesystem~l_miscellaneous437_l_linksopenrightdefaultsettingisnative_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v2-updates-2-policy-l-microsoftofficesystem-l-miscellaneous437-l-onlinestoragefilter-1",
+      "title": "user_vendor_msft_policy_config_office16v2.updates.2~policy~l_microsoftofficesystem~l_miscellaneous437_l_onlinestoragefilter_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2.updates.2~policy~l_microsoftofficesystem~l_miscellaneous437_l_onlinestoragefilter_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-miscellaneous437-l-suppressrecommendedsettingsdialog-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_miscellaneous437_l_suppressrecommendedsettingsdialog_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_miscellaneous437_l_suppressrecommendedsettingsdialog_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v7-updates-policy-l-microsoftofficesystem-l-privacy-l-trustcenter-l-sendsurvey-0",
+      "title": "user_vendor_msft_policy_config_office16v7.updates~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendsurvey_0",
+      "recommended_value": "user_vendor_msft_policy_config_office16v7.updates~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_sendsurvey_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-privacy-l-trustcenter-l-disableoptinwizard-1",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_disableoptinwizard_1",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_disableoptinwizard_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-office16v2-policy-l-microsoftofficesystem-l-privacy-l-trustcenter-l-enablecustomerexperienceimprovementprogram-0",
+      "title": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_enablecustomerexperienceimprovementprogram_0",
+      "recommended_value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_privacy~l_trustcenter_l_enablecustomerexperienceimprovementprogram_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-outlk16v2-policy-l-microsoftofficeoutlook-l-toolsaccounts-l-exchangesettings-l-automaticallyconfigureprofilebasedonactive-1",
+      "title": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_automaticallyconfigureprofilebasedonactive_1",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_automaticallyconfigureprofilebasedonactive_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-outlk16v2-policy-l-microsoftofficeoutlook-l-toolsaccounts-l-exchangesettings-l-cachedexchangemode-l-downloadshardnonmailfolders-0",
+      "title": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings~l_cachedexchangemode_l_downloadshardnonmailfolders_0",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings~l_cachedexchangemode_l_downloadshardnonmailfolders_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-outlk16v2-policy-l-microsoftofficeoutlook-l-toolsaccounts-l-exchangesettings-l-cachedexchangemode-l-configurecachedexchangemode-1",
+      "title": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings~l_cachedexchangemode_l_configurecachedexchangemode_1",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings~l_cachedexchangemode_l_configurecachedexchangemode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-outlk16v2-policy-l-microsoftofficeoutlook-l-toolsaccounts-l-exchangesettings-l-cachedexchangemode-l-includeonlinemodegalinanr-1",
+      "title": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings~l_cachedexchangemode_l_includeonlinemodegalinanr_1",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings~l_cachedexchangemode_l_includeonlinemodegalinanr_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-outlk16v3-policy-l-microsoftofficeoutlook-l-toolsaccounts-l-exchangesettings-l-preferprovidedemailinautodiscoverauthprompts-1",
+      "title": "user_vendor_msft_policy_config_outlk16v3~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_preferprovidedemailinautodiscoverauthprompts_1",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v3~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_preferprovidedemailinautodiscoverauthprompts_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-outlk16v2-policy-l-microsoftofficeoutlook-l-toolsaccounts-l-exchangesettings-l-preventnondefaultexchangeaccounts-1",
+      "title": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_preventnondefaultexchangeaccounts_1",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_exchangesettings_l_preventnondefaultexchangeaccounts_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-outlk16v2-policy-l-microsoftofficeoutlook-l-toolsaccounts-l-rsssubscriptions-l-turnoffrssfeature-1",
+      "title": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_rsssubscriptions_l_turnoffrssfeature_1",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_toolsaccounts~l_rsssubscriptions_l_turnoffrssfeature_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-outlk16v4-policy-l-microsoftofficeoutlook-l-outlookoptions-l-other-l-disableoutlookmobilehyperlink-1",
+      "title": "user_vendor_msft_policy_config_outlk16v4~policy~l_microsoftofficeoutlook~l_outlookoptions~l_other_l_disableoutlookmobilehyperlink_1",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v4~policy~l_microsoftofficeoutlook~l_outlookoptions~l_other_l_disableoutlookmobilehyperlink_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-outlk16v2-policy-l-microsoftofficeoutlook-l-outlookoptions-l-other-l-makeoutlookthedefaultprogramforemailcontactsandcalendar-1",
+      "title": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_outlookoptions~l_other_l_makeoutlookthedefaultprogramforemailcontactsandcalendar_1",
+      "recommended_value": "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_outlookoptions~l_other_l_makeoutlookthedefaultprogramforemailcontactsandcalendar_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-save-l-savepowerpointfilesas-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_save_l_savepowerpointfilesas_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_save_l_savepowerpointfilesas_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-ppt16v2-policy-l-microsoftofficepowerpoint-l-powerpointoptions-l-save-l-turnofffileformatcompatiblitydialogforodp-1",
+      "title": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_save_l_turnofffileformatcompatiblitydialogforodp_1",
+      "recommended_value": "user_vendor_msft_policy_config_ppt16v2~policy~l_microsoftofficepowerpoint~l_powerpointoptions~l_save_l_turnofffileformatcompatiblitydialogforodp_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-save-l-savewordfilesas-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_save_l_savewordfilesas_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_save_l_savewordfilesas_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-u-config-and-experience-v3-6:user-vendor-msft-policy-config-word16v2-policy-l-microsoftofficeword-l-wordoptions-l-save-l-donotdisplayfileformatcompatiblitydialogforodt-1",
+      "title": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_save_l_donotdisplayfileformatcompatiblitydialogforodt_1",
+      "recommended_value": "user_vendor_msft_policy_config_word16v2~policy~l_microsoftofficeword~l_wordoptions~l_save_l_donotdisplayfileformatcompatiblitydialogforodt_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-office-u-config-and-experience-v3-6"
+}

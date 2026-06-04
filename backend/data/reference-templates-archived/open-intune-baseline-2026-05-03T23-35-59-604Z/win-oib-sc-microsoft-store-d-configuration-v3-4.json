@@ -1,0 +1,83 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-store-d-configuration-v3-4",
+  "display_name": "Win - OIB - SC - Microsoft Store - D - Configuration - v3.4",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.4",
+  "created": "2024-04-10T19:36:24.2283517Z",
+  "last_modified": "2024-12-05T20:12:53.1557469Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-d-configuration-v3-4:device-vendor-msft-policy-config-applicationmanagement-allowalltrustedapps-0",
+      "title": "device_vendor_msft_policy_config_applicationmanagement_allowalltrustedapps_0",
+      "recommended_value": "device_vendor_msft_policy_config_applicationmanagement_allowalltrustedapps_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-d-configuration-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-d-configuration-v3-4:device-vendor-msft-policy-config-applicationmanagement-allowappstoreautoupdate-1",
+      "title": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1",
+      "recommended_value": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-d-configuration-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-d-configuration-v3-4:device-vendor-msft-policy-config-applicationmanagement-allowdeveloperunlock-0",
+      "title": "device_vendor_msft_policy_config_applicationmanagement_allowdeveloperunlock_0",
+      "recommended_value": "device_vendor_msft_policy_config_applicationmanagement_allowdeveloperunlock_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-d-configuration-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-d-configuration-v3-4:device-vendor-msft-policy-config-applicationmanagement-allowgamedvr-0",
+      "title": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_0",
+      "recommended_value": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-d-configuration-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-d-configuration-v3-4:device-vendor-msft-policy-config-applicationmanagement-blocknonadminuserinstall-0",
+      "title": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_0",
+      "recommended_value": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-d-configuration-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-d-configuration-v3-4:device-vendor-msft-policy-config-applicationmanagement-msiallowusercontroloverinstall-0",
+      "title": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_0",
+      "recommended_value": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-d-configuration-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-d-configuration-v3-4:device-vendor-msft-policy-config-applicationmanagement-msialwaysinstallwithelevatedprivileges-0",
+      "title": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+      "recommended_value": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-d-configuration-v3-4"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-store-d-configuration-v3-4"
+}

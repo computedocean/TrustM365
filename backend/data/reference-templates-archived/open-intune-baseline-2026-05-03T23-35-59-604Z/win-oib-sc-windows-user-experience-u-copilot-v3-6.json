@@ -1,0 +1,35 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-windows-user-experience-u-copilot-v3-6",
+  "display_name": "Win - OIB - SC - Windows User Experience - U - Copilot - v3.6",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.6",
+  "created": "2024-04-10T19:35:10.9655299Z",
+  "last_modified": "2025-04-18T11:09:03.6844085Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-windows-user-experience-u-copilot-v3-6:user-vendor-msft-policy-config-windowsai-turnoffwindowscopilot-1",
+      "title": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_1",
+      "recommended_value": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-user-experience-u-copilot-v3-6"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-windows-user-experience-u-copilot-v3-6"
+}

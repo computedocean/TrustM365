@@ -1,0 +1,535 @@
+[
+  {
+    "id": "zerotrust-apps",
+    "display_name": "ZeroTrust — Application Registrations",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Identity",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "entra_apps",
+    "resources": {
+      "apps_no_expiring_creds": {
+        "id": "apps_no_expiring_creds",
+        "displayName": "Apps with expired/expiring credentials",
+        "testId": "apps.no_expiring_credentials"
+      },
+      "apps_no_implicit_grant": {
+        "id": "apps_no_implicit_grant",
+        "displayName": "Implicit grant disabled on apps",
+        "testId": "apps.implicit_grant_disabled"
+      },
+      "apps_safe_redirect_uris": {
+        "id": "apps_safe_redirect_uris",
+        "displayName": "Safe redirect URIs",
+        "testId": "apps.safe_redirect_uris"
+      },
+      "apps_have_owners_high_priv": {
+        "id": "apps_have_owners_high_priv",
+        "displayName": "High-privilege apps have owners",
+        "testId": "apps.have_owners_for_high_privilege"
+      },
+      "apps_no_client_secrets": {
+        "id": "apps_no_client_secrets",
+        "displayName": "No client secrets on apps",
+        "testId": "apps.no_client_secrets"
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-apps:app-1",
+        "title": "ZT.APP.1 - No expired or soon-expiring client credentials",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-apps:app-2",
+        "title": "ZT.APP.2 - Implicit grant disabled on applications",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-apps:app-3",
+        "title": "ZT.APP.3 - Redirect URIs are safe (no wildcards/http)",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-apps:app-4",
+        "title": "ZT.APP.4 - High-privilege applications have owners",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-apps:app-5",
+        "title": "ZT.APP.5 - No client secrets on applications",
+        "recommended_value": true
+      }
+    ],
+    "watched_keys": [],
+    "name": "ZeroTrust — Application Registrations"
+  },
+  {
+    "id": "zerotrust-auth-passwordless",
+    "display_name": "ZeroTrust — Authentication Methods (Passwordless)",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Identity",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "entra_auth_policies",
+    "resources": {
+      "auth_methods_policy": {
+        "id": "auth_methods_policy",
+        "displayName": "Authentication Methods Policy",
+        "authenticationMethodConfigurations": [
+          {
+            "id": "Fido2",
+            "state": "enabled"
+          }
+        ],
+        "testId": "zerotrust-auth-passwordless-enabled"
+      },
+      "auth_sms_disabled": {
+        "id": "auth_sms_disabled",
+        "displayName": "SMS authentication",
+        "testId": "zerotrust-auth-sms-disabled"
+      },
+      "auth_voice_disabled": {
+        "id": "auth_voice_disabled",
+        "displayName": "Voice authentication",
+        "testId": "zerotrust-auth-voice-disabled"
+      },
+      "auth_disable_weak_mfa": {
+        "id": "auth_disable_weak_mfa",
+        "displayName": "Disable weak MFA (SMS/Voice)",
+        "testId": "auth.disable_weak_mfa"
+      },
+      "auth_fido2_attestation": {
+        "id": "auth_fido2_attestation",
+        "displayName": "FIDO2 attestation",
+        "testId": "auth.fido2_attestation_enforced"
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-auth-passwordless:am-1",
+        "title": "ZT.AUTH.1 - Phishing-resistant authentication methods enabled",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-auth-passwordless:am-2",
+        "title": "ZT.AUTH.2 - SMS authentication disabled",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-auth-passwordless:am-3",
+        "title": "ZT.AUTH.3 - Voice authentication disabled",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-auth-passwordless:am-4",
+        "title": "ZT.AUTH.4 - Weak MFA (SMS/Voice) disabled",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-auth-passwordless:am-5",
+        "title": "ZT.AUTH.5 - FIDO2 attestation enforced",
+        "recommended_value": true
+      }
+    ],
+    "watched_keys": [
+      {
+        "path": "authenticationMethodConfigurations[id=Fido2].state",
+        "label": "FIDO2 state",
+        "match": "equals"
+      }
+    ],
+    "name": "ZeroTrust — Authentication Methods (Passwordless)"
+  },
+  {
+    "id": "zerotrust-authorization-invite-policy",
+    "display_name": "ZeroTrust — Guest Invite Policy",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Identity",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "entra_auth_policies",
+    "resources": {
+      "authorization_policy": {
+        "id": "authorization_policy",
+        "displayName": "Authorization Policy",
+        "allowInvitesFrom": "adminsAndGuestInviters",
+        "testId": "zerotrust-auth-guest-invite-policy"
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-authorization-invite-policy:auth-1",
+        "title": "ZT.AUTH.1 - Guest invite policy restricts invites to admins/guest inviters",
+        "recommended_value": "adminsAndGuestInviters"
+      }
+    ],
+    "watched_keys": [
+      {
+        "path": "allowInvitesFrom",
+        "label": "allowInvitesFrom",
+        "match": "equals"
+      }
+    ],
+    "name": "ZeroTrust — Guest Invite Policy"
+  },
+  {
+    "id": "zerotrust-ca-mfa",
+    "display_name": "ZeroTrust — Conditional Access: MFA for all users",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Identity",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "entra_ca",
+    "resources": {
+      "ca_mfa_all": {
+        "id": "ca_mfa_all",
+        "displayName": "Conditional Access — MFA for all users",
+        "testId": "zerotrust-ca-mfa-all"
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-ca-mfa:ca-1",
+        "title": "ZT.CA.1 - Conditional Access requires MFA for all users",
+        "recommended_value": true
+      }
+    ],
+    "watched_keys": [
+      {
+        "path": "grantControls.builtInControls",
+        "label": "Grant Controls builtInControls",
+        "match": "includes"
+      }
+    ],
+    "name": "ZeroTrust — Conditional Access: MFA for all users"
+  },
+  {
+    "id": "zerotrust-device-compliance-policies",
+    "display_name": "ZeroTrust — Device Compliance Policies",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Devices",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "intune_compliance",
+    "resources": {
+      "device_compliance_policy": {
+        "id": "device_compliance_policy",
+        "displayName": "Device Compliance Policy",
+        "platform": "any"
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-device-compliance-policies:dc-1",
+        "title": "ZT.DC.1 - Device compliance policies exist",
+        "recommended_value": true
+      }
+    ],
+    "watched_keys": [
+      {
+        "path": "displayName",
+        "label": "Policy Name",
+        "match": "existsNonEmpty"
+      }
+    ],
+    "name": "ZeroTrust — Device Compliance Policies"
+  },
+  {
+    "id": "zerotrust-device-tpm-required",
+    "display_name": "ZeroTrust — Device Compliance: TPM required",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Devices",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "intune_compliance",
+    "resources": {
+      "device_compliance_policy": {
+        "id": "device_compliance_policy",
+        "displayName": "Device Compliance Policy",
+        "platform": "any"
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-device-tpm:dc-1",
+        "title": "ZT.DC.2 - TPM required on devices",
+        "recommended_value": true
+      }
+    ],
+    "watched_keys": [
+      {
+        "path": "tpmRequired",
+        "label": "TPM Required",
+        "match": "equals"
+      }
+    ],
+    "name": "ZeroTrust — Device Compliance: TPM required"
+  },
+  {
+    "id": "zerotrust-devices",
+    "display_name": "ZeroTrust — Devices",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Devices",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "intune_ep_disk_encryption",
+    "resources": {
+      "bitlocker_enforced": {
+        "id": "bitlocker_enforced",
+        "displayName": "BitLocker enforced",
+        "testId": "device.bitlocker_enforced"
+      },
+      "asr_enabled": {
+        "id": "asr_enabled",
+        "displayName": "Attack Surface Reduction rules applied",
+        "testId": "device.asr_enabled"
+      },
+      "defender_antivirus": {
+        "id": "defender_antivirus",
+        "displayName": "Defender Antivirus policies",
+        "testId": "device.defender_antivirus"
+      },
+      "firewall_policies": {
+        "id": "firewall_policies",
+        "displayName": "Firewall policies applied",
+        "testId": "device.firewall_policies"
+      },
+      "filevault_enforced": {
+        "id": "filevault_enforced",
+        "displayName": "FileVault encryption enforced",
+        "testId": "device.filevault_enforced"
+      },
+      "laps_protected": {
+        "id": "laps_protected",
+        "displayName": "Local admin credentials protected (LAPS)",
+        "testId": "device.laps_protected"
+      },
+      "windows_hello_business": {
+        "id": "windows_hello_business",
+        "displayName": "Windows Hello for Business configured",
+        "testId": "device.windows_hello_business"
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-devices:dev-1",
+        "title": "ZT.DV.1 - BitLocker (Disk encryption) enforced",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-devices:dev-2",
+        "title": "ZT.DV.2 - Attack Surface Reduction rules applied",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-devices:dev-3",
+        "title": "ZT.DV.3 - Defender Antivirus policies applied",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-devices:dev-4",
+        "title": "ZT.DV.4 - Firewall policies applied",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-devices:dev-5",
+        "title": "ZT.DV.5 - FileVault encryption enforced (macOS)",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-devices:dev-6",
+        "title": "ZT.DV.6 - Local admin credentials protected by LAPS",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-devices:dev-7",
+        "title": "ZT.DV.7 - Windows Hello for Business configured",
+        "recommended_value": true
+      }
+    ],
+    "watched_keys": [],
+    "name": "ZeroTrust — Devices"
+  },
+  {
+    "id": "zerotrust-identity-protection",
+    "display_name": "ZeroTrust — Identity Protection & Sign-ins",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Identity",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "overview",
+    "resources": {
+      "risky_users_triaged": {
+        "id": "risky_users_triaged",
+        "displayName": "Risky users triaged",
+        "testId": "identity.risky_users_triaged"
+      },
+      "high_risk_signins_triaged": {
+        "id": "high_risk_signins_triaged",
+        "displayName": "High-risk sign-ins triaged",
+        "testId": "signins.high_risk_signins_triaged"
+      },
+      "no_adal_usage": {
+        "id": "no_adal_usage",
+        "displayName": "No ADAL usage in sign-ins",
+        "testId": "audit.no_adal_usage"
+      },
+      "signins_managed_devices": {
+        "id": "signins_managed_devices",
+        "displayName": "Sign-ins from managed devices",
+        "testId": "signin.all_from_managed_devices"
+      },
+      "cross_tenant_outbound": {
+        "id": "cross_tenant_outbound",
+        "displayName": "Cross-tenant outbound access policy",
+        "testId": "policies.outbound_cross_tenant_access_configured"
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-identity-protection:ip-1",
+        "title": "ZT.IP.1 - Risky users triaged",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-identity-protection:ip-2",
+        "title": "ZT.IP.2 - High-risk sign-ins triaged",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-identity-protection:ip-3",
+        "title": "ZT.IP.3 - No ADAL usage in sign-ins",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-identity-protection:ip-4",
+        "title": "ZT.IP.4 - Sign-ins originate from managed devices",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-identity-protection:ip-5",
+        "title": "ZT.IP.5 - Cross-tenant outbound access policy configured",
+        "recommended_value": true
+      }
+    ],
+    "watched_keys": [],
+    "name": "ZeroTrust — Identity Protection & Sign-ins"
+  },
+  {
+    "id": "zerotrust-privileged-roles",
+    "display_name": "ZeroTrust — Privileged Roles (PIM)",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Identity",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "entra_roles",
+    "resources": {
+      "pim_assignments": {
+        "id": "pim_assignments",
+        "displayName": "Privileged role assignments managed via PIM",
+        "testId": "pim.assignments_managed_with_pim"
+      },
+      "pim_no_permanent": {
+        "id": "pim_no_permanent",
+        "displayName": "No permanent privileged role assignments",
+        "testId": "pim.no_permanent_privileged_assignments"
+      },
+      "privileged_phishing_resistant_methods": {
+        "id": "privileged_phishing_resistant_methods",
+        "displayName": "Privileged accounts phishing-resistant methods registered",
+        "testId": "privileged.phishing_resistant_methods_registered"
+      },
+      "guests_not_assigned": {
+        "id": "guests_not_assigned",
+        "displayName": "Guests not assigned privileged roles",
+        "testId": "guests.not_assigned_privileged_roles"
+      },
+      "global_admin_count": {
+        "id": "global_admin_count",
+        "displayName": "Global Administrator count",
+        "testId": "admin.global_admin_count"
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-privileged-roles:pim-1",
+        "title": "ZT.PIM.1 - Privileged role assignments managed via PIM",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-privileged-roles:pim-2",
+        "title": "ZT.PIM.2 - No permanent privileged role assignments",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-privileged-roles:pim-3",
+        "title": "ZT.PIM.3 - Privileged accounts have phishing-resistant methods",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-privileged-roles:pim-4",
+        "title": "ZT.PIM.4 - No guest principals assigned privileged roles",
+        "recommended_value": true
+      },
+      {
+        "control_id": "zerotrust-privileged-roles:ad-1",
+        "title": "ZT.AD.1 - Global Administrators count within recommended range (2-8)",
+        "recommended_value": "2-8"
+      }
+    ],
+    "watched_keys": [],
+    "name": "ZeroTrust — Privileged Roles (PIM)"
+  },
+  {
+    "id": "zerotrust-security-defaults",
+    "display_name": "ZeroTrust — Security Defaults",
+    "metadata": {
+      "owner": "zerotrust",
+      "owner_display": "Zero Trust Assessment",
+      "category": "Identity",
+      "source": "https://github.com/microsoft/zerotrustassessment"
+    },
+    "area_key": "entra_auth_policies",
+    "resources": {
+      "security_defaults": {
+        "id": "security_defaults",
+        "displayName": "Security Defaults",
+        "isEnabled": true
+      }
+    },
+    "settings": [
+      {
+        "control_id": "zerotrust-security-defaults:secdef-1",
+        "title": "ZT.SECDEF.1 - Security Defaults enabled",
+        "recommended_value": true
+      }
+    ],
+    "watched_keys": [
+      {
+        "path": "isEnabled",
+        "label": "Security Defaults enabled",
+        "match": "equals"
+      }
+    ],
+    "name": "ZeroTrust — Security Defaults"
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6",
+  "display_name": "Win - OIB - ES - Windows LAPS - D - LAPS Configuration (24H2+) - v3.6",
+  "description": "NOTE: For 24H2+ devices only.",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Local admin password solution",
+  "category": "account_protection",
+  "scope": "Device",
+  "version": "v3.6",
+  "created": "2023-08-09T15:01:36.3414523Z",
+  "last_modified": "2025-05-12T13:28:22.32455Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6:device-vendor-msft-laps-policies-backupdirectory-1",
+      "title": "device_vendor_msft_laps_policies_backupdirectory_1",
+      "recommended_value": "device_vendor_msft_laps_policies_backupdirectory_1",
+      "type": "enum",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6",
+      "allowed_values": [
+        "Backup the password to Microsoft Entra ID only",
+        "Backup to AD DS"
+      ]
+    },
+    {
+      "control_id": "oib:win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6:device-vendor-msft-laps-policies-passwordcomplexity-8",
+      "title": "device_vendor_msft_laps_policies_passwordcomplexity_8",
+      "recommended_value": "device_vendor_msft_laps_policies_passwordcomplexity_8",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6:unknown",
+      "title": "unknown",
+      "recommended_value": 21,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6:device-vendor-msft-laps-policies-postauthenticationactions-11",
+      "title": "device_vendor_msft_laps_policies_postauthenticationactions_11",
+      "recommended_value": "device_vendor_msft_laps_policies_postauthenticationactions_11",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6:unknown",
+      "title": "unknown",
+      "recommended_value": 1,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6:device-vendor-msft-laps-policies-automaticaccountmanagementenabled-true",
+      "title": "device_vendor_msft_laps_policies_automaticaccountmanagementenabled_true",
+      "recommended_value": "device_vendor_msft_laps_policies_automaticaccountmanagementenabled_true",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6"
+    }
+  ],
+  "resources": {
+    "oib:win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6:settings": {
+      "id": "oib:win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6:settings",
+      "displayName": "Win - OIB - ES - Windows LAPS - D - LAPS Configuration (24H2+) - v3.6 settings",
+      "settings": {
+        "device_vendor_msft_laps_policies_backupdirectory_1": "device_vendor_msft_laps_policies_backupdirectory_1",
+        "deviceVendorMsftLapsPoliciesBackupdirectory1": "device_vendor_msft_laps_policies_backupdirectory_1"
+      }
+    }
+  },
+  "watched_keys": [
+    {
+      "path": "settings.deviceVendorMsftLapsPoliciesBackupdirectory1",
+      "label": "device_vendor_msft_laps_policies_backupdirectory_1",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Backup Directory].value",
+      "label": "device_vendor_msft_laps_policies_backupdirectory_1",
+      "match": "equals"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-es-windows-laps-d-laps-configuration-24h2-v3-6"
+}

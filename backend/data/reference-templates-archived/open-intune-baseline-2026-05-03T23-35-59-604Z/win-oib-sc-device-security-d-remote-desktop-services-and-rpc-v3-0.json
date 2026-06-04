@@ -1,0 +1,99 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0",
+  "display_name": "Win - OIB - SC - Device Security - D - Remote Desktop Services and RPC - v3.0",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.0",
+  "created": "2023-08-09T15:01:24.4772848Z",
+  "last_modified": "2024-12-05T19:42:29.6521654Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0:device-vendor-msft-policy-config-remoteprocedurecall-rpcendpointmapperclientauthentication-1",
+      "title": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_1",
+      "recommended_value": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0:device-vendor-msft-policy-config-remoteprocedurecall-restrictunauthenticatedrpcclients-1",
+      "title": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
+      "recommended_value": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0:device-vendor-msft-policy-config-remotedesktopservices-donotallowpasswordsaving-1",
+      "title": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_1",
+      "recommended_value": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0:device-vendor-msft-policy-config-remotedesktopservices-donotallowdriveredirection-1",
+      "title": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_1",
+      "recommended_value": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0:device-vendor-msft-policy-config-remotedesktopservices-promptforpassworduponconnection-1",
+      "title": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_1",
+      "recommended_value": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0:device-vendor-msft-policy-config-remotedesktopservices-requiresecurerpccommunication-1",
+      "title": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_1",
+      "recommended_value": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0:device-vendor-msft-policy-config-admx-terminalserver-ts-security-layer-policy-1",
+      "title": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0:device-vendor-msft-policy-config-admx-terminalserver-ts-user-authentication-policy-1",
+      "title": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0:device-vendor-msft-policy-config-remotedesktopservices-clientconnectionencryptionlevel-1",
+      "title": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
+      "recommended_value": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-d-remote-desktop-services-and-rpc-v3-0"
+}

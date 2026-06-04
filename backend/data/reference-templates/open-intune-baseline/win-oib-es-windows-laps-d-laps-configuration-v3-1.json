@@ -1,0 +1,100 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-es-windows-laps-d-laps-configuration-v3-1",
+  "display_name": "Win - OIB - ES - Windows LAPS - D - LAPS Configuration - v3.1",
+  "description": "Windows LAPS configuration",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Local admin password solution",
+  "category": "account_protection",
+  "scope": "Device",
+  "version": "v3.1",
+  "created": "2026-05-21T23:24:52.149Z",
+  "last_modified": "2026-05-21T23:24:52.149Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-windows-laps-d-laps-configuration-v3-1:backup-directory",
+      "title": "Backup Directory",
+      "recommended_value": "Backup the password to Microsoft Entra ID only",
+      "type": "enum",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-windows-laps-d-laps-configuration-v3-1",
+      "allowed_values": [
+        "Backup the password to Microsoft Entra ID only",
+        "Backup to AD DS"
+      ]
+    },
+    {
+      "control_id": "oib:win-oib-es-windows-laps-d-laps-configuration-v3-1:password-age-days",
+      "title": "Password Age Days",
+      "recommended_value": "7",
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-windows-laps-d-laps-configuration-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-es-windows-laps-d-laps-configuration-v3-1:password-length",
+      "title": "Password Length",
+      "recommended_value": "21",
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-windows-laps-d-laps-configuration-v3-1"
+    }
+  ],
+  "resources": {
+    "oib:win-oib-es-windows-laps-d-laps-configuration-v3-1:settings": {
+      "id": "oib:win-oib-es-windows-laps-d-laps-configuration-v3-1:settings",
+      "displayName": "Win - OIB - ES - Windows LAPS - D - LAPS Configuration - v3.1 settings",
+      "settings": {
+        "Backup Directory": "Backup the password to Microsoft Entra ID only",
+        "backupDirectory": "Backup the password to Microsoft Entra ID only",
+        "Password Age Days": "7",
+        "passwordAgeDays": "7",
+        "Password Length": "21",
+        "passwordLength": "21"
+      }
+    }
+  },
+  "watched_keys": [
+    {
+      "path": "settings.backupDirectory",
+      "label": "Backup Directory",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Backup Directory].value",
+      "label": "Backup Directory",
+      "match": "equals"
+    },
+    {
+      "path": "settings.passwordAgeDays",
+      "label": "Password Age Days",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Password Age Days].value",
+      "label": "Password Age Days",
+      "match": "equals"
+    },
+    {
+      "path": "settings.passwordLength",
+      "label": "Password Length",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Password Length].value",
+      "label": "Password Length",
+      "match": "equals"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline"
+  },
+  "id": "win-oib-es-windows-laps-d-laps-configuration-v3-1"
+}

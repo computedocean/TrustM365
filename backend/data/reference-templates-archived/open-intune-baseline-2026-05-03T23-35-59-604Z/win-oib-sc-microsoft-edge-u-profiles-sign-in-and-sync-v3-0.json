@@ -1,0 +1,91 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0",
+  "display_name": "Win - OIB - SC - Microsoft Edge - U - Profiles, Sign-In and Sync - v3.0",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.0",
+  "created": "2023-08-09T15:01:39.6790324Z",
+  "last_modified": "2024-12-05T20:11:45.1203996Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0:user-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-autoimportatfirstrun-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_autoimportatfirstrun_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_autoimportatfirstrun_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0:user-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-browsersignin-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_browsersignin_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_browsersignin_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0:user-vendor-msft-policy-config-microsoft-edgev78diff-policy-microsoft-edge-nonremovableprofileenabled-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_nonremovableprofileenabled_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_nonremovableprofileenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0:user-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-browseraddprofileenabled-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_browseraddprofileenabled_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_browseraddprofileenabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0:user-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-forceephemeralprofiles-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_forceephemeralprofiles_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_forceephemeralprofiles_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0:user-vendor-msft-policy-config-microsoft-edgev86-policy-microsoft-edge-forcesync-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev86~policy~microsoft_edge_forcesync_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev86~policy~microsoft_edge_forcesync_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0:user-vendor-msft-policy-config-microsoft-edgev93-policy-microsoft-edge-identity-implicitsigninenabled-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev93~policy~microsoft_edge~identity_implicitsigninenabled_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev93~policy~microsoft_edge~identity_implicitsigninenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0:user-vendor-msft-policy-config-microsoft-edgev92-policy-microsoft-edge-aadwebsitessousingthisprofileenabled-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_aadwebsitessousingthisprofileenabled_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev92~policy~microsoft_edge_aadwebsitessousingthisprofileenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0"
+}

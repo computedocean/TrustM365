@@ -1,0 +1,66 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "workspace": {
+      "type": "string"
+    },
+    "tablePrefix": {
+      "type": "string",
+      "defaultValue": "TrustM365"
+    },
+    "ruleDisplayName": {
+      "type": "string",
+      "defaultValue": "TrustM365 - Restore Failures"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.OperationalInsights/workspaces/providers/alertRules",
+      "apiVersion": "2024-01-01-preview",
+      "name": "[concat(parameters('workspace'), '/Microsoft.SecurityInsights/', guid(parameters('workspace'), parameters('ruleDisplayName')))]",
+      "kind": "Scheduled",
+      "properties": {
+        "displayName": "[parameters('ruleDisplayName')]",
+        "description": "Creates incidents when remediation fails in TrustM365.",
+        "enabled": true,
+        "severity": "High",
+        "query": "let tableName = strcat('{TablePrefix}', 'Restore_CL');\nunion isfuzzy=true table(tableName)\n| where TimeGenerated > ago(1h)\n| where eventType_s in ('restore.property.failed','restore.resource.failed')\n| summarize FailedRestores=count(), LastSeen=max(TimeGenerated) by tenantId_s, areaKey_s\n| where FailedRestores >= 1",
+        "queryFrequency": "PT15M",
+        "queryPeriod": "PT1H",
+        "triggerOperator": "GreaterThan",
+        "triggerThreshold": 0,
+        "suppressionDuration": "PT30M",
+        "suppressionEnabled": false,
+        "tactics": [
+          "Impact"
+        ],
+        "eventGroupingSettings": {
+          "aggregationKind": "AlertPerResult"
+        },
+        "incidentConfiguration": {
+          "createIncident": true,
+          "groupingConfiguration": {
+            "enabled": true,
+            "reopenClosedIncident": true,
+            "lookbackDuration": "PT2H",
+            "matchingMethod": "Selected",
+            "groupByCustomDetails": [
+              "tenantId_s",
+              "areaKey_s"
+            ]
+          }
+        },
+        "customDetails": {
+          "TenantId": "tenantId_s",
+          "AreaKey": "areaKey_s",
+          "FailedRestores": "FailedRestores"
+        },
+        "alertDetailsOverride": {
+          "alertDisplayNameFormat": "TrustM365 restore failure for {{tenantId_s}} / {{areaKey_s}}",
+          "alertDescriptionFormat": "Restore operation failures detected: {{FailedRestores}}"
+        }
+      }
+    }
+  ]
+}

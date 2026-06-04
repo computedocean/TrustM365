@@ -1,0 +1,59 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0",
+  "display_name": "Win - OIB - SC - Device Security - D - Enhanced Phishing Protection - v3.0",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.0",
+  "created": "2023-08-09T15:01:21.9397993Z",
+  "last_modified": "2024-12-05T19:41:14.316846Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0:device-vendor-msft-policy-config-webthreatdefense-notifymalicious-1",
+      "title": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_1",
+      "recommended_value": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0:device-vendor-msft-policy-config-webthreatdefense-notifypasswordreuse-1",
+      "title": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_1",
+      "recommended_value": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0:device-vendor-msft-policy-config-webthreatdefense-notifyunsafeapp-1",
+      "title": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_1",
+      "recommended_value": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0:device-vendor-msft-policy-config-webthreatdefense-serviceenabled-1",
+      "title": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-d-enhanced-phishing-protection-v3-0"
+}

@@ -1,0 +1,151 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-es-defender-antivirus-d-av-configuration-v3-3",
+  "display_name": "Win - OIB - ES - Defender Antivirus - D - AV Configuration - v3.3",
+  "description": "Core Defender AV configuration",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Microsoft Defender Antivirus",
+  "category": "antivirus",
+  "scope": "Device",
+  "version": "v3.3",
+  "created": "2026-05-21T23:24:52.139Z",
+  "last_modified": "2026-05-21T23:24:52.140Z",
+  "license": "GPL-3.0",
+  "required_licenses": [
+    "Defender for Endpoint"
+  ],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-d-av-configuration-v3-3:allow-cloud-protection",
+      "title": "Allow Cloud Protection",
+      "recommended_value": true,
+      "type": "boolean",
+      "notes": "Mapped to Intune settings property defenderRequireCloudProtection (coerce Allowed=>true)",
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-d-av-configuration-v3-3",
+      "allowed_values": [
+        "Allowed",
+        "Blocked"
+      ]
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-d-av-configuration-v3-3:enable-network-protection",
+      "title": "Enable Network Protection",
+      "recommended_value": true,
+      "type": "boolean",
+      "notes": "Mapped to defenderRequireNetworkInspectionSystem in config profile settings",
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-d-av-configuration-v3-3"
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-d-av-configuration-v3-3:pua-protection",
+      "title": "Pua Protection",
+      "recommended_value": "Enabled",
+      "type": "enum",
+      "notes": "Mapped to defenderPuaProtection (best-effort alias)",
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-d-av-configuration-v3-3",
+      "allowed_values": [
+        "Enabled",
+        "Disabled",
+        "Audit"
+      ]
+    },
+    {
+      "control_id": "oib:win-oib-es-defender-antivirus-d-av-configuration-v3-3:cloud-block-level",
+      "title": "Cloud Block Level",
+      "recommended_value": "notConfigured",
+      "type": "enum",
+      "notes": "Maps defenderCloudBlockLevel property from config profiles (alias for cloud protection level)",
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-defender-antivirus-d-av-configuration-v3-3",
+      "allowed_values": [
+        "notConfigured",
+        "Block",
+        "Allow",
+        "Audit"
+      ]
+    }
+  ],
+  "resources": {
+    "oib:win-oib-es-defender-antivirus-d-av-configuration-v3-3:settings": {
+      "id": "oib:win-oib-es-defender-antivirus-d-av-configuration-v3-3:settings",
+      "displayName": "Win - OIB - ES - Defender Antivirus - D - AV Configuration - v3.3 settings",
+      "settings": {
+        "defenderRequireCloudProtection": true,
+        "defenderRequireNetworkInspectionSystem": true,
+        "defenderPuaProtection": "Enabled",
+        "defenderCloudBlockLevel": "notConfigured"
+      },
+      "settings_array": [
+        {
+          "settingDefinitionId": "device_vendor_msft_policy_config_defender_allowcloudprotection",
+          "name": "Allow Cloud Protection",
+          "value": true
+        },
+        {
+          "settingDefinitionId": "device_vendor_msft_policy_config_defender_enablenetworkprotection",
+          "name": "Enable Network Protection",
+          "value": true
+        },
+        {
+          "settingDefinitionId": "device_vendor_msft_policy_config_defender_puaprotection",
+          "name": "Pua Protection",
+          "value": "Enabled"
+        },
+        {
+          "settingDefinitionId": "device_vendor_msft_policy_config_defender_cloudblocklevel",
+          "name": "Cloud Block Level",
+          "value": "notConfigured"
+        }
+      ]
+    }
+  },
+  "watched_keys": [
+    {
+      "path": "settings[settingDefinitionId=device_vendor_msft_policy_config_defender_allowcloudprotection].value",
+      "label": "Allow Cloud Protection",
+      "match": "equals"
+    },
+    {
+      "path": "settings.defenderRequireCloudProtection",
+      "label": "Allow Cloud Protection",
+      "match": "equals"
+    },
+    {
+      "path": "settings[settingDefinitionId=device_vendor_msft_policy_config_defender_enablenetworkprotection].value",
+      "label": "Enable Network Protection",
+      "match": "equals"
+    },
+    {
+      "path": "settings.defenderRequireNetworkInspectionSystem",
+      "label": "Enable Network Protection",
+      "match": "equals"
+    },
+    {
+      "path": "settings[settingDefinitionId=device_vendor_msft_policy_config_defender_puaprotection].value",
+      "label": "Pua Protection",
+      "match": "equals"
+    },
+    {
+      "path": "settings.defenderPuaProtection",
+      "label": "Pua Protection",
+      "match": "equals"
+    },
+    {
+      "path": "settings[settingDefinitionId=device_vendor_msft_policy_config_defender_cloudblocklevel].value",
+      "label": "Cloud Block Level",
+      "match": "equals"
+    },
+    {
+      "path": "settings.defenderCloudBlockLevel",
+      "label": "Cloud Block Level",
+      "match": "equals"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline"
+  },
+  "id": "win-oib-es-defender-antivirus-d-av-configuration-v3-3"
+}

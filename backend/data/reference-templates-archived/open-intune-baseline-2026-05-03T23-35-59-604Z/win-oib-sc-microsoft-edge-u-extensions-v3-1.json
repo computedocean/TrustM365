@@ -1,0 +1,59 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-edge-u-extensions-v3-1",
+  "display_name": "Win - OIB - SC - Microsoft Edge - U - Extensions - v3.1",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.1",
+  "created": "2023-10-26T17:43:34.564736Z",
+  "last_modified": "2024-12-05T20:11:14.308712Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-extensions-v3-1:user-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-extensions-extensioninstallallowlist-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallallowlist_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallallowlist_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-extensions-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-extensions-v3-1:user-vendor-msft-policy-config-microsoft-edgev88-policy-microsoft-edge-extensions-blockexternalextensions-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge~extensions_blockexternalextensions_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge~extensions_blockexternalextensions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-extensions-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-extensions-v3-1:user-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-extensions-extensioninstallforcelist-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallforcelist_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallforcelist_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-extensions-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-extensions-v3-1:user-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-extensions-extensioninstallblocklist-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~extensions_extensioninstallblocklist_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-extensions-v3-1"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-edge-u-extensions-v3-1"
+}

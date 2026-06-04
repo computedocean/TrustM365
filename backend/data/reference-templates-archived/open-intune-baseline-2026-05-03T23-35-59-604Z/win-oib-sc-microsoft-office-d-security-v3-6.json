@@ -1,0 +1,163 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-office-d-security-v3-6",
+  "display_name": "Win - OIB - SC - Microsoft Office - D - Security - v3.6",
+  "description": "NOTE: These policies are only applicable to Microsoft 365 Apps for Enterprise (included with M365 E*/A*/F*), not Microsoft 365 Apps for Business (included with M365 Business Premium).",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.6",
+  "created": "2025-01-31T10:42:30.6188683Z",
+  "last_modified": "2025-05-13T10:17:59.0062117Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-secguidev22h2-policy-cat-secguide-pol-secguide-a001-block-flash-1",
+      "title": "device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_a001_block_flash_1",
+      "recommended_value": "device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_a001_block_flash_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-secguidev22h2-policy-cat-secguide-pol-secguide-legacy-jscript-1",
+      "title": "device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_legacy_jscript_1",
+      "recommended_value": "device_vendor_msft_policy_config_secguidev22h2~policy~cat_secguide_pol_secguide_legacy_jscript_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-lync16v2-policy-l-lync-l-lyncconfiguration-l-policyenablesiphighsecuritymode-1",
+      "title": "device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policyenablesiphighsecuritymode_1",
+      "recommended_value": "device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policyenablesiphighsecuritymode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-lync16v2-policy-l-lync-l-lyncconfiguration-l-policydisablehttpconnect-1",
+      "title": "device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policydisablehttpconnect_1",
+      "recommended_value": "device_vendor_msft_policy_config_lync16v2~policy~l_lync~l_lyncconfiguration_l_policydisablehttpconnect_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-addonmanagement-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_addonmanagement_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_addonmanagement_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-consistentmimehandling-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_consistentmimehandling_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_consistentmimehandling_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-disableusernameandpassword-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_disableusernameandpassword_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_disableusernameandpassword_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-informationbar-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_informationbar_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_informationbar_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-localmachinezonelockdownsecurity-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_localmachinezonelockdownsecurity_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_localmachinezonelockdownsecurity_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-mimesniffingsafetyfature-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_mimesniffingsafetyfature_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_mimesniffingsafetyfature_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-navigateurl-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_navigateurl_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_navigateurl_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-objectcachingprotection-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_objectcachingprotection_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_objectcachingprotection_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-protectionfromzoneelevation-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_protectionfromzoneelevation_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_protectionfromzoneelevation_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-restrictactivexinstall-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictactivexinstall_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictactivexinstall_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-restrictfiledownload-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictfiledownload_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_restrictfiledownload_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-savedfromurl-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_savedfromurl_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_savedfromurl_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-office-d-security-v3-6:device-vendor-msft-policy-config-office16v2-policy-l-microsoftofficemachine-l-securitysettingsmachine-l-iesecurity-l-scriptedwindowsecurityrestrictions-1",
+      "title": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_scriptedwindowsecurityrestrictions_1",
+      "recommended_value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_securitysettingsmachine~l_iesecurity_l_scriptedwindowsecurityrestrictions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-office-d-security-v3-6"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-office-d-security-v3-6"
+}

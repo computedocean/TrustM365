@@ -1,0 +1,91 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-u-power-and-device-lock-v3-6",
+  "display_name": "Win - OIB - SC - Device Security - U - Power and Device Lock - v3.6",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.6",
+  "created": "2024-07-18T12:00:44.108232Z",
+  "last_modified": "2025-05-13T10:45:27.9789687Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-power-and-device-lock-v3-6:device-vendor-msft-policy-config-power-requirepasswordwhencomputerwakesonbattery-1",
+      "title": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_1",
+      "recommended_value": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-power-and-device-lock-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-power-and-device-lock-v3-6:device-vendor-msft-policy-config-power-requirepasswordwhencomputerwakespluggedin-1",
+      "title": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_1",
+      "recommended_value": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-power-and-device-lock-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-power-and-device-lock-v3-6:device-vendor-msft-policy-config-power-standbytimeoutonbattery-1",
+      "title": "device_vendor_msft_policy_config_power_standbytimeoutonbattery_1",
+      "recommended_value": "device_vendor_msft_policy_config_power_standbytimeoutonbattery_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-power-and-device-lock-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-power-and-device-lock-v3-6:device-vendor-msft-policy-config-power-standbytimeoutpluggedin-1",
+      "title": "device_vendor_msft_policy_config_power_standbytimeoutpluggedin_1",
+      "recommended_value": "device_vendor_msft_policy_config_power_standbytimeoutpluggedin_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-power-and-device-lock-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-power-and-device-lock-v3-6:device-vendor-msft-policy-config-power-displayofftimeoutonbattery-1",
+      "title": "device_vendor_msft_policy_config_power_displayofftimeoutonbattery_1",
+      "recommended_value": "device_vendor_msft_policy_config_power_displayofftimeoutonbattery_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-power-and-device-lock-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-power-and-device-lock-v3-6:device-vendor-msft-policy-config-power-displayofftimeoutpluggedin-1",
+      "title": "device_vendor_msft_policy_config_power_displayofftimeoutpluggedin_1",
+      "recommended_value": "device_vendor_msft_policy_config_power_displayofftimeoutpluggedin_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-power-and-device-lock-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-power-and-device-lock-v3-6:unknown",
+      "title": "unknown",
+      "recommended_value": 600,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-power-and-device-lock-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-power-and-device-lock-v3-6:unknown",
+      "title": "unknown",
+      "recommended_value": 900,
+      "type": "int",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-power-and-device-lock-v3-6"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-u-power-and-device-lock-v3-6"
+}

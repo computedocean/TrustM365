@@ -1,0 +1,84 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1",
+  "display_name": "Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (Audit Mode) - v3.1",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Attack Surface Reduction Rules",
+  "category": "attack_surface_reduction",
+  "scope": "Device",
+  "version": "v3.1",
+  "created": "2023-08-09T15:01:18.7323596Z",
+  "last_modified": "2024-12-05T19:36:18.3807998Z",
+  "license": "GPL-3.0",
+  "required_licenses": [
+    "Defender for Endpoint"
+  ],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1"
+    },
+    {
+      "control_id": "oib:win-oib-es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1:device-vendor-msft-policy-config-defender-enablecontrolledfolderaccess-2",
+      "title": "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2",
+      "recommended_value": "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2",
+      "type": "enum",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1",
+      "allowed_values": [
+        "Enabled",
+        "Audit Mode",
+        "Disabled"
+      ]
+    }
+  ],
+  "resources": {
+    "oib:win-oib-es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1:settings": {
+      "id": "oib:win-oib-es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1:settings",
+      "displayName": "Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (Audit Mode) - v3.1 settings",
+      "settings": {
+        "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2": "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2",
+        "deviceVendorMsftPolicyConfigDefenderEnablecontrolledfolderaccess2": "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2"
+      },
+      "settings_array": [
+        {
+          "settingDefinitionId": "device_vendor_msft_policy_config_defender_useadvancedprotectionagainstransomware",
+          "name": "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2",
+          "value": "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2"
+        }
+      ]
+    }
+  },
+  "watched_keys": [
+    {
+      "path": "settings[settingDefinitionId=device_vendor_msft_policy_config_defender_useadvancedprotectionagainstransomware].value",
+      "label": "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2",
+      "match": "equals"
+    },
+    {
+      "path": "settings.deviceVendorMsftPolicyConfigDefenderEnablecontrolledfolderaccess2",
+      "label": "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Enable Controlled Folder Access].value",
+      "label": "device_vendor_msft_policy_config_defender_enablecontrolledfolderaccess_2",
+      "match": "equals"
+    }
+  ],
+  "area_key": "intune_ep_asr",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1"
+}

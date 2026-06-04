@@ -1,0 +1,67 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-accounts-d-configuration-v3-2",
+  "display_name": "Win - OIB - SC - Microsoft Accounts - D - Configuration - v3.2",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.2",
+  "created": "2024-07-16T11:16:46.7186612Z",
+  "last_modified": "2024-12-05T20:10:28.6506025Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-accounts-d-configuration-v3-2:device-vendor-msft-policy-config-accounts-allowaddingnonmicrosoftaccountsmanually-0",
+      "title": "device_vendor_msft_policy_config_accounts_allowaddingnonmicrosoftaccountsmanually_0",
+      "recommended_value": "device_vendor_msft_policy_config_accounts_allowaddingnonmicrosoftaccountsmanually_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-accounts-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-accounts-d-configuration-v3-2:device-vendor-msft-policy-config-accounts-allowmicrosoftaccountconnection-0",
+      "title": "device_vendor_msft_policy_config_accounts_allowmicrosoftaccountconnection_0",
+      "recommended_value": "device_vendor_msft_policy_config_accounts_allowmicrosoftaccountconnection_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-accounts-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-accounts-d-configuration-v3-2:device-vendor-msft-policy-config-appruntime-allowmicrosoftaccountstobeoptional-1",
+      "title": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_1",
+      "recommended_value": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-accounts-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-accounts-d-configuration-v3-2:device-vendor-msft-policy-config-admx-msapolicy-microsoftaccount-disableuserauth-1",
+      "title": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_1",
+      "recommended_value": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-accounts-d-configuration-v3-2"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-accounts-d-configuration-v3-2:device-vendor-msft-policy-config-localpoliciessecurityoptions-accounts-blockmicrosoftaccounts-3",
+      "title": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_blockmicrosoftaccounts_3",
+      "recommended_value": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_blockmicrosoftaccounts_3",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-accounts-d-configuration-v3-2"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-accounts-d-configuration-v3-2"
+}

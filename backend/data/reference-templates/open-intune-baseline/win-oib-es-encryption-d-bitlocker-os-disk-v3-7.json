@@ -1,0 +1,159 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-es-encryption-d-bitlocker-os-disk-v3-7",
+  "display_name": "Win - OIB - ES - Encryption - D - BitLocker (OS Disk) - v3.7",
+  "description": "BitLocker OS disk settings",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "BitLocker",
+  "category": "disk_encryption",
+  "scope": "Device",
+  "version": "v3.7",
+  "created": "2023-08-09",
+  "last_modified": "2025-08-13",
+  "license": "GPL-3.0",
+  "required_licenses": [
+    "Windows Enterprise"
+  ],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-es-encryption-d-bitlocker-os-disk-v3-7:select-the-encryption-method-for-operating-system-drives",
+      "title": "Select the encryption method for operating system drives",
+      "recommended_value": "XTS-AES 256-bit",
+      "type": "enum",
+      "notes": "Maps to BitLocker CSP EncryptionMethod for OS drives. Prefer XTS-AES-256 where supported.",
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-encryption-d-bitlocker-os-disk-v3-7",
+      "mdm_csp": "./Device/Vendor/MSFT/BitLocker/OS/EncryptionMethod",
+      "registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\EncryptionMethod",
+      "allowed_values": [
+        "XTS-AES 256-bit",
+        "XTS-AES 128-bit",
+        "AES-CBC 256-bit",
+        "AES-CBC 128-bit"
+      ]
+    },
+    {
+      "control_id": "oib:win-oib-es-encryption-d-bitlocker-os-disk-v3-7:require-device-encryption",
+      "title": "Require Device Encryption",
+      "recommended_value": true,
+      "type": "boolean",
+      "notes": "Enables device encryption; may map to Windows Device Encryption on some SKUs.",
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-encryption-d-bitlocker-os-disk-v3-7",
+      "mdm_csp": "./Device/Vendor/MSFT/BitLocker/RequireDeviceEncryption",
+      "registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\RequireDeviceEncryption"
+    },
+    {
+      "control_id": "oib:win-oib-es-encryption-d-bitlocker-os-disk-v3-7:configure-tpm-startup",
+      "title": "Configure TPM startup",
+      "recommended_value": "Require TPM",
+      "type": "enum",
+      "notes": "Controls TPM startup behaviour. Values are implementation-specific; validate per OS.",
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-encryption-d-bitlocker-os-disk-v3-7",
+      "mdm_csp": "./Device/Vendor/MSFT/BitLocker/OS/ConfigureTPMStartup",
+      "registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\TPMStartup",
+      "allowed_values": [
+        "Require TPM",
+        "Do not allow startup PIN with TPM",
+        "Do not allow startup key with TPM"
+      ]
+    },
+    {
+      "control_id": "oib:win-oib-es-encryption-d-bitlocker-os-disk-v3-7:allow-bitlocker-without-a-compatible-tpm-requires-a-password-or-a-startup-key-on-a-usb-flash-drive",
+      "title": "Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive)",
+      "recommended_value": false,
+      "type": "boolean",
+      "notes": "When false, BitLocker requires TPM; when true, allows use of startup key/password.",
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-es-encryption-d-bitlocker-os-disk-v3-7",
+      "mdm_csp": "./Device/Vendor/MSFT/BitLocker/OS/AllowBitLockerWithoutTPM",
+      "registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\AllowWithoutTPM"
+    }
+  ],
+  "resources": {
+    "oib:win-oib-es-encryption-d-bitlocker-os-disk-v3-7:settings": {
+      "id": "oib:win-oib-es-encryption-d-bitlocker-os-disk-v3-7:settings",
+      "displayName": "Win - OIB - ES - Encryption - D - BitLocker (OS Disk) - v3.7 settings",
+      "settings": {
+        "Select the encryption method for operating system drives": "XTS-AES 256-bit",
+        "Select the encryption method for operating system drives_mdm_csp": "./Device/Vendor/MSFT/BitLocker/OS/EncryptionMethod",
+        "Select the encryption method for operating system drives_registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\EncryptionMethod",
+        "selectTheEncryptionMethodForOperatingSystemDrives": "XTS-AES 256-bit",
+        "selectTheEncryptionMethodForOperatingSystemDrives_mdm_csp": "./Device/Vendor/MSFT/BitLocker/OS/EncryptionMethod",
+        "selectTheEncryptionMethodForOperatingSystemDrives_registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\EncryptionMethod",
+        "storageRequireMobileDeviceEncryption": true,
+        "storageRequireMobileDeviceEncryption_mdm_csp": "./Device/Vendor/MSFT/BitLocker/RequireDeviceEncryption",
+        "storageRequireMobileDeviceEncryption_registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\RequireDeviceEncryption",
+        "Configure TPM startup": "Require TPM",
+        "Configure TPM startup_mdm_csp": "./Device/Vendor/MSFT/BitLocker/OS/ConfigureTPMStartup",
+        "Configure TPM startup_registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\TPMStartup",
+        "configureTPMStartup": "Require TPM",
+        "configureTPMStartup_mdm_csp": "./Device/Vendor/MSFT/BitLocker/OS/ConfigureTPMStartup",
+        "configureTPMStartup_registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\TPMStartup",
+        "Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive)": false,
+        "Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive)_mdm_csp": "./Device/Vendor/MSFT/BitLocker/OS/AllowBitLockerWithoutTPM",
+        "Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive)_registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\AllowWithoutTPM",
+        "allowBitLockerWithoutACompatibleTPMRequiresAPasswordOrAStartupKeyOnAUSBFlashDrive": false,
+        "allowBitLockerWithoutACompatibleTPMRequiresAPasswordOrAStartupKeyOnAUSBFlashDrive_mdm_csp": "./Device/Vendor/MSFT/BitLocker/OS/AllowBitLockerWithoutTPM",
+        "allowBitLockerWithoutACompatibleTPMRequiresAPasswordOrAStartupKeyOnAUSBFlashDrive_registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\AllowWithoutTPM"
+      },
+      "settings_array": [
+        {
+          "settingDefinitionId": "device_vendor_msft_bitlocker_requiredeviceencryption",
+          "name": "Require Device Encryption",
+          "value": true,
+          "mdm_csp": "./Device/Vendor/MSFT/BitLocker/RequireDeviceEncryption",
+          "registry_key": "HKLM\\SOFTWARE\\Policies\\Microsoft\\FVE\\RequireDeviceEncryption"
+        }
+      ]
+    }
+  },
+  "watched_keys": [
+    {
+      "path": "settings.selectTheEncryptionMethodForOperatingSystemDrives",
+      "label": "Select the encryption method for operating system drives",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Select the encryption method for operating system drives].value",
+      "label": "Select the encryption method for operating system drives",
+      "match": "equals"
+    },
+    {
+      "path": "settings[settingDefinitionId=device_vendor_msft_bitlocker_requiredeviceencryption].value",
+      "label": "Require Device Encryption",
+      "match": "equals"
+    },
+    {
+      "path": "settings.storageRequireMobileDeviceEncryption",
+      "label": "Require Device Encryption",
+      "match": "equals"
+    },
+    {
+      "path": "settings.configureTPMStartup",
+      "label": "Configure TPM startup",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Configure TPM startup].value",
+      "label": "Configure TPM startup",
+      "match": "equals"
+    },
+    {
+      "path": "settings.allowBitLockerWithoutACompatibleTPMRequiresAPasswordOrAStartupKeyOnAUSBFlashDrive",
+      "label": "Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive)",
+      "match": "equals"
+    },
+    {
+      "path": "settings[name=Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive)].value",
+      "label": "Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive)",
+      "match": "equals"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline"
+  },
+  "id": "win-oib-es-encryption-d-bitlocker-os-disk-v3-7"
+}

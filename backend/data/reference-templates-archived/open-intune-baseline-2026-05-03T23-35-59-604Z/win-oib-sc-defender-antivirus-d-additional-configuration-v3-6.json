@@ -1,0 +1,109 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md",
+  "template_id": "win-oib-sc-defender-antivirus-d-additional-configuration-v3-6",
+  "display_name": "Win - OIB - SC - Defender Antivirus - D - Additional Configuration - v3.6",
+  "description": "NOTE: Some of these settings require the device to be onboarded to Defender for Endpoint.",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "Microsoft Defender Antivirus",
+  "category": "antivirus",
+  "scope": "Device",
+  "version": "v3.6",
+  "created": "2024-04-10T19:38:15.3173165Z",
+  "last_modified": "2025-05-08T14:15:08.1055621Z",
+  "license": "GPL-3.0",
+  "required_licenses": [
+    "Defender for Endpoint"
+  ],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:device-vendor-msft-defender-configuration-enableconvertwarntoblock-1",
+      "title": "device_vendor_msft_defender_configuration_enableconvertwarntoblock_1",
+      "recommended_value": "device_vendor_msft_defender_configuration_enableconvertwarntoblock_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:device-vendor-msft-defender-configuration-reporting-enabledynamicsignaturedroppedeventreporting-1",
+      "title": "device_vendor_msft_defender_configuration_reporting_enabledynamicsignaturedroppedeventreporting_1",
+      "recommended_value": "device_vendor_msft_defender_configuration_reporting_enabledynamicsignaturedroppedeventreporting_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:device-vendor-msft-defender-configuration-enablefilehashcomputation-1",
+      "title": "device_vendor_msft_defender_configuration_enablefilehashcomputation_1",
+      "recommended_value": "device_vendor_msft_defender_configuration_enablefilehashcomputation_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:device-vendor-msft-defender-configuration-hideexclusionsfromlocaladmins-1",
+      "title": "device_vendor_msft_defender_configuration_hideexclusionsfromlocaladmins_1",
+      "recommended_value": "device_vendor_msft_defender_configuration_hideexclusionsfromlocaladmins_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:device-vendor-msft-defender-configuration-hideexclusionsfromlocalusers-1",
+      "title": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_1",
+      "recommended_value": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:device-vendor-msft-defender-configuration-inteltdtenabled-1",
+      "title": "device_vendor_msft_defender_configuration_inteltdtenabled_1",
+      "recommended_value": "device_vendor_msft_defender_configuration_inteltdtenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:device-vendor-msft-defender-configuration-oobeenablertpandsigupdate-1",
+      "title": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_1",
+      "recommended_value": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:device-vendor-msft-defender-configuration-quickscanincludeexclusions-1",
+      "title": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_1",
+      "recommended_value": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    },
+    {
+      "control_id": "oib:win-oib-sc-defender-antivirus-d-additional-configuration-v3-6:unknown",
+      "title": "unknown",
+      "recommended_value": "%ProgramData%\\Microsoft\\IntuneManagementExtension\\Logs",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline/blob/main/WINDOWS/SETTINGSOUTPUT.md#win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-defender-antivirus-d-additional-configuration-v3-6"
+}

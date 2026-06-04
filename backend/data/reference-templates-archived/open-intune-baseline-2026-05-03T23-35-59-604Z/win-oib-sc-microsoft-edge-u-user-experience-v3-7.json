@@ -1,0 +1,123 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-edge-u-user-experience-v3-7",
+  "display_name": "Win - OIB - SC - Microsoft Edge - U - User Experience - v3.7",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.7",
+  "created": "2024-11-22T10:44:18.0705563Z",
+  "last_modified": "2025-08-13T12:21:58.3924187Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev99-policy-microsoft-edge-allowgamesmenu-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev99~policy~microsoft_edge_allowgamesmenu_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev99~policy~microsoft_edge_allowgamesmenu_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev107-policy-microsoft-edge-edgeworkspaces-edgeworkspacesenabled-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev107~policy~microsoft_edge~edgeworkspaces_edgeworkspacesenabled_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev107~policy~microsoft_edge~edgeworkspaces_edgeworkspacesenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev117-policy-microsoft-edge-edgegames-gamermodeenabled-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev117~policy~microsoft_edge~edgegames_gamermodeenabled_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev117~policy~microsoft_edge~edgegames_gamermodeenabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev111-policy-microsoft-edge-newpdfreaderenabled-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev111~policy~microsoft_edge_newpdfreaderenabled_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev111~policy~microsoft_edge_newpdfreaderenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev87-policy-microsoft-edge-edgeshoppingassistantenabled-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev87~policy~microsoft_edge_edgeshoppingassistantenabled_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev87~policy~microsoft_edge_edgeshoppingassistantenabled_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev88-policy-microsoft-edge-showmicrosoftrewards-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge_showmicrosoftrewards_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge_showmicrosoftrewards_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev111-policy-microsoft-edge-showacrobatsubscriptionbutton-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev111~policy~microsoft_edge_showacrobatsubscriptionbutton_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev111~policy~microsoft_edge_showacrobatsubscriptionbutton_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev88-policy-microsoft-edge-recommended-performance-recommended-startupboostenabled-recommended-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge_recommended~performance_recommended_startupboostenabled_recommended_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge_recommended~performance_recommended_startupboostenabled_recommended_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev88-policy-microsoft-edge-recommended-sleepingtabs-recommended-sleepingtabsenabled-recommended-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge_recommended~sleepingtabs_recommended_sleepingtabsenabled_recommended_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev88~policy~microsoft_edge_recommended~sleepingtabs_recommended_sleepingtabsenabled_recommended_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-recommended-startup-recommended-restoreonstartup-recommended-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_recommended~startup_recommended_restoreonstartup_recommended_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_recommended~startup_recommended_restoreonstartup_recommended_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edgev79diff-policy-microsoft-edge-recommended-startup-recommended-newtabpagemanagedquicklinks-recommended-0",
+      "title": "user_vendor_msft_policy_config_microsoft_edgev79diff~policy~microsoft_edge_recommended~startup_recommended_newtabpagemanagedquicklinks_recommended_0",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edgev79diff~policy~microsoft_edge_recommended~startup_recommended_newtabpagemanagedquicklinks_recommended_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-edge-u-user-experience-v3-7:user-vendor-msft-policy-config-microsoft-edge-policy-microsoft-edge-recommended-startup-recommended-showhomebutton-recommended-1",
+      "title": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_recommended~startup_recommended_showhomebutton_recommended_1",
+      "recommended_value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_recommended~startup_recommended_showhomebutton_recommended_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-edge-u-user-experience-v3-7"
+}

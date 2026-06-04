@@ -1,0 +1,43 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-windows-hello-for-business-d-cloud-kerberos-trust-v3-5",
+  "display_name": "Win - OIB - SC - Windows Hello for Business - D - Cloud Kerberos Trust - v3.5",
+  "description": "NOTE: Requires setup of Cloud Kerberos Trust to function.\nhttps://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/deploy/hybrid-cloud-kerberos-trust",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.5",
+  "created": "2023-08-09T15:01:45.1480862Z",
+  "last_modified": "2025-02-17T13:00:16.0093322Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-windows-hello-for-business-d-cloud-kerberos-trust-v3-5:device-vendor-msft-policy-config-kerberos-cloudkerberosticketretrievalenabled-1",
+      "title": "device_vendor_msft_policy_config_kerberos_cloudkerberosticketretrievalenabled_1",
+      "recommended_value": "device_vendor_msft_policy_config_kerberos_cloudkerberosticketretrievalenabled_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-hello-for-business-d-cloud-kerberos-trust-v3-5"
+    },
+    {
+      "control_id": "oib:win-oib-sc-windows-hello-for-business-d-cloud-kerberos-trust-v3-5:unknown",
+      "title": "unknown",
+      "recommended_value": "",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-windows-hello-for-business-d-cloud-kerberos-trust-v3-5"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-windows-hello-for-business-d-cloud-kerberos-trust-v3-5"
+}

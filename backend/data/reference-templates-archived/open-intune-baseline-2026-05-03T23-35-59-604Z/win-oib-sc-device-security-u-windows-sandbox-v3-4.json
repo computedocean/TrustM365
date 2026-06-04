@@ -1,0 +1,75 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-u-windows-sandbox-v3-4",
+  "display_name": "Win - OIB - SC - Device Security - U - Windows Sandbox - v3.4",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.4",
+  "created": "2024-09-16T18:16:30.8023009Z",
+  "last_modified": "2024-12-05T19:51:01.6358425Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-sandbox-v3-4:device-vendor-msft-policy-config-windowssandbox-allowaudioinput-0",
+      "title": "device_vendor_msft_policy_config_windowssandbox_allowaudioinput_0",
+      "recommended_value": "device_vendor_msft_policy_config_windowssandbox_allowaudioinput_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-sandbox-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-sandbox-v3-4:device-vendor-msft-policy-config-windowssandbox-allowclipboardredirection-1",
+      "title": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_1",
+      "recommended_value": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-sandbox-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-sandbox-v3-4:device-vendor-msft-policy-config-windowssandbox-allownetworking-0",
+      "title": "device_vendor_msft_policy_config_windowssandbox_allownetworking_0",
+      "recommended_value": "device_vendor_msft_policy_config_windowssandbox_allownetworking_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-sandbox-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-sandbox-v3-4:device-vendor-msft-policy-config-windowssandbox-allowprinterredirection-0",
+      "title": "device_vendor_msft_policy_config_windowssandbox_allowprinterredirection_0",
+      "recommended_value": "device_vendor_msft_policy_config_windowssandbox_allowprinterredirection_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-sandbox-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-sandbox-v3-4:device-vendor-msft-policy-config-windowssandbox-allowvgpu-0",
+      "title": "device_vendor_msft_policy_config_windowssandbox_allowvgpu_0",
+      "recommended_value": "device_vendor_msft_policy_config_windowssandbox_allowvgpu_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-sandbox-v3-4"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-u-windows-sandbox-v3-4:device-vendor-msft-policy-config-windowssandbox-allowvideoinput-0",
+      "title": "device_vendor_msft_policy_config_windowssandbox_allowvideoinput_0",
+      "recommended_value": "device_vendor_msft_policy_config_windowssandbox_allowvideoinput_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-u-windows-sandbox-v3-4"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-u-windows-sandbox-v3-4"
+}

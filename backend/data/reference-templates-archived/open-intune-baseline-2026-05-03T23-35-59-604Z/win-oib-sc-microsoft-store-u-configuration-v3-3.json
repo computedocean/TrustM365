@@ -1,0 +1,51 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-microsoft-store-u-configuration-v3-3",
+  "display_name": "Win - OIB - SC - Microsoft Store - U - Configuration - v3.3",
+  "description": "NOTE: The \"Turn off the Store application\" setting does not work on Windows Pro/Business SKU's:\nhttps://learn.microsoft.com/en-gb/windows/client-management/mdm/policy-csp-admx-windowsstore?WT.mc_id=Portal-fx#removewindowsstore_2",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.3",
+  "created": "2024-07-31T11:57:24.9445605Z",
+  "last_modified": "2024-12-05T20:13:02.5902369Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-u-configuration-v3-3:user-vendor-msft-policy-config-admx-taskbar-nopinningstoretotaskbar-1",
+      "title": "user_vendor_msft_policy_config_admx_taskbar_nopinningstoretotaskbar_1",
+      "recommended_value": "user_vendor_msft_policy_config_admx_taskbar_nopinningstoretotaskbar_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-u-configuration-v3-3"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-u-configuration-v3-3:user-vendor-msft-policy-config-admx-windowsstore-removewindowsstore-1-1",
+      "title": "user_vendor_msft_policy_config_admx_windowsstore_removewindowsstore_1_1",
+      "recommended_value": "user_vendor_msft_policy_config_admx_windowsstore_removewindowsstore_1_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-u-configuration-v3-3"
+    },
+    {
+      "control_id": "oib:win-oib-sc-microsoft-store-u-configuration-v3-3:user-vendor-msft-policy-config-applicationmanagement-msialwaysinstallwithelevatedprivileges-0",
+      "title": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+      "recommended_value": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-microsoft-store-u-configuration-v3-3"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-microsoft-store-u-configuration-v3-3"
+}

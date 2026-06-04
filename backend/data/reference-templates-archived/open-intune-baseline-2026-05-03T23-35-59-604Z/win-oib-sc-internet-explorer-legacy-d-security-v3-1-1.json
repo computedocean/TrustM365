@@ -1,0 +1,971 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-internet-explorer-legacy-d-security-v3-1-1",
+  "display_name": "Win - OIB - SC - Internet Explorer (Legacy) - D - Security - v3.1.1",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.1",
+  "created": "2024-04-10T20:01:43.8678985Z",
+  "last_modified": "2024-12-05T20:10:18.2092141Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-allowsoftwarewhensignatureisinvalid-0",
+      "title": "device_vendor_msft_policy_config_internetexplorer_allowsoftwarewhensignatureisinvalid_0",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_allowsoftwarewhensignatureisinvalid_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-checkservercertificaterevocation-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_checkservercertificaterevocation_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_checkservercertificaterevocation_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-checksignaturesondownloadedprograms-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_checksignaturesondownloadedprograms_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_checksignaturesondownloadedprograms_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-donotallowactivexcontrolsinprotectedmode-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_donotallowactivexcontrolsinprotectedmode_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_donotallowactivexcontrolsinprotectedmode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-disableencryptionsupport-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_disableencryptionsupport_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_disableencryptionsupport_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-disableprocessesinenhancedprotectedmode-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_disableprocessesinenhancedprotectedmode_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_disableprocessesinenhancedprotectedmode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-allowenhancedprotectedmode-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_allowenhancedprotectedmode_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_allowenhancedprotectedmode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-disableignoringcertificateerrors-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_disableignoringcertificateerrors_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_disableignoringcertificateerrors_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowaccesstodatasources-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowaccesstodatasources_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowaccesstodatasources_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowcopypasteviascript-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowcopypasteviascript_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowcopypasteviascript_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowdraganddropcopyandpastefiles-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowdraganddropcopyandpastefiles_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowdraganddropcopyandpastefiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowloadingofxamlfiles-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowloadingofxamlfiles_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowloadingofxamlfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowonlyapproveddomainstouseactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstouseactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstouseactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowonlyapproveddomainstousetdcactivexcontrol-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstousetdcactivexcontrol_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstousetdcactivexcontrol_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowscriptinitiatedwindows-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptinitiatedwindows_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptinitiatedwindows_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowscriptingofinternetexplorerwebbrowsercontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptingofinternetexplorerwebbrowsercontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptingofinternetexplorerwebbrowsercontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowscriptlets-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptlets_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptlets_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowupdatestostatusbarviascript-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowupdatestostatusbarviascript_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowupdatestostatusbarviascript_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowvbscripttorunininternetexplorer-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowvbscripttorunininternetexplorer_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowvbscripttorunininternetexplorer_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowautomaticpromptingforfiledownloads-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowautomaticpromptingforfiledownloads_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowautomaticpromptingforfiledownloads_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzonedonotrunantimalwareagainstactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzonedonotrunantimalwareagainstactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzonedonotrunantimalwareagainstactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzonedownloadsignedactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzonedownloadsignedactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzonedownloadsignedactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzonedownloadunsignedactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzonedownloadunsignedactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzonedownloadunsignedactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneenabledraggingofcontentfromdifferentdomainswithinwindows-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainswithinwindows_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainswithinwindows_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneincludelocalpathwhenuploadingfilestoserver-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneincludelocalpathwhenuploadingfilestoserver_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneincludelocalpathwhenuploadingfilestoserver_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneinitializeandscriptactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneinitializeandscriptactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneinitializeandscriptactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzonejavapermissions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzonejavapermissions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzonejavapermissions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzonelaunchingapplicationsandfilesiniframe-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzonelaunchingapplicationsandfilesiniframe_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzonelaunchingapplicationsandfilesiniframe_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzonelogonoptions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzonelogonoptions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzonelogonoptions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzonenavigatewindowsandframes-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzonenavigatewindowsandframes_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzonenavigatewindowsandframes_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallownetframeworkreliantcomponents-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallownetframeworkreliantcomponents_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallownetframeworkreliantcomponents_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzonerunnetframeworkreliantcomponentssignedwithauthenticode-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzonerunnetframeworkreliantcomponentssignedwithauthenticode_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzonerunnetframeworkreliantcomponentssignedwithauthenticode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneshowsecuritywarningforpotentiallyunsafefiles-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneshowsecuritywarningforpotentiallyunsafefiles_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneshowsecuritywarningforpotentiallyunsafefiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneenablecrosssitescriptingfilter-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneenablecrosssitescriptingfilter_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneenablecrosssitescriptingfilter_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneenableprotectedmode-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneenableprotectedmode_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneenableprotectedmode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowsmartscreenie-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowsmartscreenie_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowsmartscreenie_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneusepopupblocker-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneusepopupblocker_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneusepopupblocker_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowuserdatapersistence-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowuserdatapersistence_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowuserdatapersistence_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-internetzoneallowlessprivilegedsites-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowlessprivilegedsites_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowlessprivilegedsites_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-includeallnetworkpaths-0",
+      "title": "device_vendor_msft_policy_config_internetexplorer_includeallnetworkpaths_0",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_includeallnetworkpaths_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-intranetzonedonotrunantimalwareagainstactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_intranetzonedonotrunantimalwareagainstactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_intranetzonedonotrunantimalwareagainstactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-intranetzoneinitializeandscriptactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_intranetzoneinitializeandscriptactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_intranetzoneinitializeandscriptactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-intranetzonejavapermissions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_intranetzonejavapermissions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_intranetzonejavapermissions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-localmachinezonedonotrunantimalwareagainstactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_localmachinezonedonotrunantimalwareagainstactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_localmachinezonedonotrunantimalwareagainstactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-localmachinezonejavapermissions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_localmachinezonejavapermissions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_localmachinezonejavapermissions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-lockeddowninternetzoneallowsmartscreenie-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_lockeddowninternetzoneallowsmartscreenie_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_lockeddowninternetzoneallowsmartscreenie_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-lockeddownintranetjavapermissions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_lockeddownintranetjavapermissions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_lockeddownintranetjavapermissions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-lockeddownlocalmachinezonejavapermissions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_lockeddownlocalmachinezonejavapermissions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_lockeddownlocalmachinezonejavapermissions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-lockeddownrestrictedsiteszonejavapermissions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_lockeddownrestrictedsiteszonejavapermissions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_lockeddownrestrictedsiteszonejavapermissions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-lockeddownrestrictedsiteszoneallowsmartscreenie-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_lockeddownrestrictedsiteszoneallowsmartscreenie_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_lockeddownrestrictedsiteszoneallowsmartscreenie_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-lockeddowntrustedsiteszonejavapermissions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_lockeddowntrustedsiteszonejavapermissions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_lockeddowntrustedsiteszonejavapermissions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowaccesstodatasources-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowaccesstodatasources_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowaccesstodatasources_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowactivescripting-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowactivescripting_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowactivescripting_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowbinaryandscriptbehaviors-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowbinaryandscriptbehaviors_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowbinaryandscriptbehaviors_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowcopypasteviascript-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowcopypasteviascript_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowcopypasteviascript_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowdraganddropcopyandpastefiles-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowdraganddropcopyandpastefiles_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowdraganddropcopyandpastefiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowfiledownloads-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowfiledownloads_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowfiledownloads_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowloadingofxamlfiles-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowloadingofxamlfiles_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowloadingofxamlfiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowmetarefresh-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowmetarefresh_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowmetarefresh_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowonlyapproveddomainstouseactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstouseactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstouseactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowscriptinitiatedwindows-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptinitiatedwindows_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptinitiatedwindows_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowscriptlets-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptlets_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptlets_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowupdatestostatusbarviascript-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowupdatestostatusbarviascript_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowupdatestostatusbarviascript_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowvbscripttorunininternetexplorer-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowvbscripttorunininternetexplorer_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowvbscripttorunininternetexplorer_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowautomaticpromptingforfiledownloads-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowautomaticpromptingforfiledownloads_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowautomaticpromptingforfiledownloads_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonedonotrunantimalwareagainstactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedonotrunantimalwareagainstactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedonotrunantimalwareagainstactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonedownloadsignedactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadsignedactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadsignedactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonedownloadunsignedactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadunsignedactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadunsignedactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneenablemimesniffing-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenablemimesniffing_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenablemimesniffing_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneinitializeandscriptactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneinitializeandscriptactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneinitializeandscriptactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonejavapermissions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonejavapermissions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonejavapermissions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonelaunchingapplicationsandfilesiniframe-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelaunchingapplicationsandfilesiniframe_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelaunchingapplicationsandfilesiniframe_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonelogonoptions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelogonoptions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelogonoptions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonenavigatewindowsandframes-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonenavigatewindowsandframes_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonenavigatewindowsandframes_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallownetframeworkreliantcomponents-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallownetframeworkreliantcomponents_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallownetframeworkreliantcomponents_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonerunactivexcontrolsandplugins-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunactivexcontrolsandplugins_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunactivexcontrolsandplugins_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonescriptactivexcontrolsmarkedsafeforscripting-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptactivexcontrolsmarkedsafeforscripting_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptactivexcontrolsmarkedsafeforscripting_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszonescriptingofjavaapplets-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptingofjavaapplets_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptingofjavaapplets_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneenablecrosssitescriptingfilter-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenablecrosssitescriptingfilter_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenablecrosssitescriptingfilter_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneturnonprotectedmode-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneturnonprotectedmode_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneturnonprotectedmode_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowsmartscreenie-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowsmartscreenie_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowsmartscreenie_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneusepopupblocker-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneusepopupblocker_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneusepopupblocker_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowuserdatapersistence-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowuserdatapersistence_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowuserdatapersistence_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictedsiteszoneallowlessprivilegedsites-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowlessprivilegedsites_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowlessprivilegedsites_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-trustedsiteszonedonotrunantimalwareagainstactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszonedonotrunantimalwareagainstactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszonedonotrunantimalwareagainstactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-trustedsiteszoneinitializeandscriptactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszoneinitializeandscriptactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszoneinitializeandscriptactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-trustedsiteszonejavapermissions-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszonejavapermissions_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszonejavapermissions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-allowcertificateaddressmismatchwarning-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_allowcertificateaddressmismatchwarning_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_allowcertificateaddressmismatchwarning_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-disablebypassofsmartscreenwarnings-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_disablebypassofsmartscreenwarnings_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_disablebypassofsmartscreenwarnings_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-disablebypassofsmartscreenwarningsaboutuncommonfiles-0",
+      "title": "device_vendor_msft_policy_config_internetexplorer_disablebypassofsmartscreenwarningsaboutuncommonfiles_0",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_disablebypassofsmartscreenwarningsaboutuncommonfiles_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-preventmanagingsmartscreenfilter-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_preventmanagingsmartscreenfilter_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_preventmanagingsmartscreenfilter_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-preventperuserinstallationofactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_preventperuserinstallationofactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_preventperuserinstallationofactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-removerunthistimebuttonforoutdatedactivexcontrols-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_removerunthistimebuttonforoutdatedactivexcontrols_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_removerunthistimebuttonforoutdatedactivexcontrols_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-donotblockoutdatedactivexcontrols-0",
+      "title": "device_vendor_msft_policy_config_internetexplorer_donotblockoutdatedactivexcontrols_0",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_donotblockoutdatedactivexcontrols_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-allowfallbacktossl3-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_allowfallbacktossl3_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_allowfallbacktossl3_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-consistentmimehandlinginternetexplorerprocesses-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_consistentmimehandlinginternetexplorerprocesses_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_consistentmimehandlinginternetexplorerprocesses_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-mimesniffingsafetyfeatureinternetexplorerprocesses-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_mimesniffingsafetyfeatureinternetexplorerprocesses_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_mimesniffingsafetyfeatureinternetexplorerprocesses_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-mkprotocolsecurityrestrictioninternetexplorerprocesses-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_mkprotocolsecurityrestrictioninternetexplorerprocesses_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_mkprotocolsecurityrestrictioninternetexplorerprocesses_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-notificationbarinternetexplorerprocesses-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_notificationbarinternetexplorerprocesses_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_notificationbarinternetexplorerprocesses_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-protectionfromzoneelevationinternetexplorerprocesses-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_protectionfromzoneelevationinternetexplorerprocesses_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_protectionfromzoneelevationinternetexplorerprocesses_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictactivexinstallinternetexplorerprocesses-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictactivexinstallinternetexplorerprocesses_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictactivexinstallinternetexplorerprocesses_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-restrictfiledownloadinternetexplorerprocesses-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_restrictfiledownloadinternetexplorerprocesses_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_restrictfiledownloadinternetexplorerprocesses_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-scriptedwindowsecurityrestrictionsinternetexplorerprocesses-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_scriptedwindowsecurityrestrictionsinternetexplorerprocesses_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_scriptedwindowsecurityrestrictionsinternetexplorerprocesses_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-donotallowuserstoaddsites-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_donotallowuserstoaddsites_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_donotallowuserstoaddsites_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-donotallowuserstochangepolicies-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_donotallowuserstochangepolicies_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_donotallowuserstochangepolicies_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-securityzonesuseonlymachinesettings-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_securityzonesuseonlymachinesettings_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_securityzonesuseonlymachinesettings_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-specifyuseofactivexinstallerservice-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_specifyuseofactivexinstallerservice_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_specifyuseofactivexinstallerservice_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-disablecrashdetection-1",
+      "title": "device_vendor_msft_policy_config_internetexplorer_disablecrashdetection_1",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_disablecrashdetection_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:device-vendor-msft-policy-config-internetexplorer-disablesecuritysettingscheck-0",
+      "title": "device_vendor_msft_policy_config_internetexplorer_disablesecuritysettingscheck_0",
+      "recommended_value": "device_vendor_msft_policy_config_internetexplorer_disablesecuritysettingscheck_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    },
+    {
+      "control_id": "oib:win-oib-sc-internet-explorer-legacy-d-security-v3-1-1:user-vendor-msft-policy-config-internetexplorer-allowautocomplete-0",
+      "title": "user_vendor_msft_policy_config_internetexplorer_allowautocomplete_0",
+      "recommended_value": "user_vendor_msft_policy_config_internetexplorer_allowautocomplete_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-internet-explorer-legacy-d-security-v3-1-1"
+}

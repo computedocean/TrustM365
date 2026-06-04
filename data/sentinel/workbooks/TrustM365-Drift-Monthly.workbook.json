@@ -1,0 +1,61 @@
+{
+  "version": "Notebook/1.0",
+  "items": [
+    {
+      "type": 1,
+      "content": {
+        "json": "# TrustM365 Monthly Drift Telemetry\\nThis workbook summarizes drift and remediation telemetry exported from TrustM365."
+      },
+      "name": "title"
+    },
+    {
+      "type": 3,
+      "name": "driftTrend",
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "let tableName = 'TrustM365Drift_CL';\\nunion isfuzzy=true table(tableName)\\n| where TimeGenerated > ago(30d)\\n| where eventType_s in ('drift.check.completed', 'drift.post_restore.completed')\\n| summarize DriftCount=sum(toint(driftCount_d)) by bin(TimeGenerated, 1d)\\n| render timechart",
+        "size": 0,
+        "title": "Daily Drift Volume (30 days)",
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces"
+      }
+    },
+    {
+      "type": 3,
+      "name": "tenantDrift",
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "let tableName = 'TrustM365Drift_CL';\\nunion isfuzzy=true table(tableName)\\n| where TimeGenerated > ago(30d)\\n| where eventType_s == 'drift.check.completed' and status_s == 'drifted'\\n| summarize DriftChecks=count(), TotalDrift=sum(toint(driftCount_d)) by tenantId_s\\n| order by TotalDrift desc",
+        "size": 0,
+        "title": "Tenants With Most Drift (30 days)",
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces"
+      }
+    },
+    {
+      "type": 3,
+      "name": "areaDrift",
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "let tableName = 'TrustM365Drift_CL';\\nunion isfuzzy=true table(tableName)\\n| where TimeGenerated > ago(30d)\\n| where eventType_s == 'drift.check.completed' and status_s == 'drifted'\\n| summarize DriftChecks=count(), TotalDrift=sum(toint(driftCount_d)) by areaKey_s\\n| order by TotalDrift desc",
+        "size": 0,
+        "title": "Top Drifted Areas",
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces"
+      }
+    },
+    {
+      "type": 3,
+      "name": "restoreHealth",
+      "content": {
+        "version": "KqlItem/1.0",
+        "query": "let tableName = 'TrustM365Restore_CL';\\nunion isfuzzy=true table(tableName)\\n| where TimeGenerated > ago(30d)\\n| summarize Success=countif(eventType_s in ('restore.property.succeeded','restore.resource.succeeded')), Failure=countif(eventType_s in ('restore.property.failed','restore.resource.failed')) by tenantId_s\\n| extend SuccessRatePct = iif((Success + Failure) == 0, 100.0, todouble(Success) * 100.0 / todouble(Success + Failure))\\n| order by SuccessRatePct asc",
+        "size": 0,
+        "title": "Remediation Success Rate",
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces"
+      }
+    }
+  ],
+  "$schema": "https://github.com/microsoft/Application-Insights-Workbooks/blob/master/schema/workbook.json"
+}

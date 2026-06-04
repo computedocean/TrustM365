@@ -1,0 +1,91 @@
+{
+  "source": "OpenIntuneBaseline",
+  "source_url": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+  "template_id": "win-oib-sc-device-security-d-printing-v3-7",
+  "display_name": "Win - OIB - SC - Device Security - D - Printing - v3.7",
+  "description": "",
+  "os": "Windows",
+  "profile_type": "Settings catalog",
+  "policy_type": "",
+  "category": "",
+  "scope": "Device",
+  "version": "v3.7",
+  "created": "2025-10-08T09:51:00.0899701Z",
+  "last_modified": "2025-10-10T10:01:25.7054182Z",
+  "license": "GPL-3.0",
+  "required_licenses": [],
+  "settings": [
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-printing-v3-7:device-vendor-msft-policy-config-admx-printing2-registerspoolerremoterpcendpoint-0",
+      "title": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_0",
+      "recommended_value": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_0",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-printing-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-printing-v3-7:device-vendor-msft-policy-config-printers-configureredirectionguardpolicy-1",
+      "title": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1",
+      "recommended_value": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-printing-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-printing-v3-7:device-vendor-msft-policy-config-printers-configurerpcconnectionpolicy-1",
+      "title": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
+      "recommended_value": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-printing-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-printing-v3-7:device-vendor-msft-policy-config-printers-configurerpclistenerpolicy-1",
+      "title": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1",
+      "recommended_value": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-printing-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-printing-v3-7:device-vendor-msft-policy-config-printers-configurerpctcpport-1",
+      "title": "device_vendor_msft_policy_config_printers_configurerpctcpport_1",
+      "recommended_value": "device_vendor_msft_policy_config_printers_configurerpctcpport_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-printing-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-printing-v3-7:device-vendor-msft-policy-config-printers-restrictdriverinstallationtoadministrators-1",
+      "title": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_1",
+      "recommended_value": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-printing-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-printing-v3-7:device-vendor-msft-policy-config-printers-configurecopyfilespolicy-1",
+      "title": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1",
+      "recommended_value": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-printing-v3-7"
+    },
+    {
+      "control_id": "oib:win-oib-sc-device-security-d-printing-v3-7:device-vendor-msft-policy-config-printers-pointandprintrestrictions-1",
+      "title": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+      "recommended_value": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+      "type": "string",
+      "notes": null,
+      "oib_reference": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline#win-oib-sc-device-security-d-printing-v3-7"
+    }
+  ],
+  "area_key": "intune_config_profiles",
+  "metadata": {
+    "source": "OpenIntuneBaseline",
+    "owner": "openintune",
+    "owner_display": "OpenIntuneBaseline",
+    "category": "Devices"
+  },
+  "id": "win-oib-sc-device-security-d-printing-v3-7"
+}
